@@ -63,8 +63,8 @@ python3 Tsunami.py -m Number_of_messages -t victim's_ten_digit_mobile_no
 ```
 python3 Tsunami.py -m 1000 -t 9876543210
 ```
-
-## 🔸 Video Tutorial
+For more detailed usage guide<br>
+watch my YouTube Video Tutorial:<br><br>
 <a href="https://www.youtube.com/watch?v=YCV0tsNLoFY"><img alt="Screenshots" title="Screenshots" src="https://1.bp.blogspot.com/-fUsNpr6iiMA/YH-5Z2WZW6I/AAAAAAAAfWQ/fwcyrPr1Hycob5AJyUE1i4PbKxZDTkHdgCLcBGAsYHQ/w320-h181/Tsunami.png"/></a>
 
 ## 🔸 Screenshot
@@ -78,4 +78,3 @@ Everytime it shows the error it sends a bombing request to the API.
 
 For Queries: [My Instagram Profile](https://www.instagram.com/utsanjan/)  
 [Check Out My YouTube Channel](https://www.youtube.com/DopeSatan)
-
