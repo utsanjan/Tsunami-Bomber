@@ -53,8 +53,8 @@ or any version greater than or equal to 3.4, this script has been tested and con
 
 ```
 apt install python3 curl git -y
-git clone https://github.com/utsanjan/Tsunami
-cd Tsunami
+git clone https://github.com/utsanjan/Tsunami-Bomber
+cd Tsunami-Bomber
 pip3 install -r requirements.txt
 python3 Tsunami.py -m Number_of_messages -t victim's_ten_digit_mobile_no
 ```
