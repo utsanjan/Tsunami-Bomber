@@ -63,6 +63,10 @@ python3 Tsunami.py -m Number_of_messages -t victim's_ten_digit_mobile_no
 ```
 python3 Tsunami.py -m 1000 -t 9876543210
 ```
+
+## 🔸 Video Tutorial
+<a href="https://www.youtube.com/watch?v=YCV0tsNLoFY"><img alt="Screenshots" title="Screenshots" src="https://1.bp.blogspot.com/-fUsNpr6iiMA/YH-5Z2WZW6I/AAAAAAAAfWQ/fwcyrPr1Hycob5AJyUE1i4PbKxZDTkHdgCLcBGAsYHQ/w320-h181/Tsunami.png"/></a>
+
 ## 🔸 Screenshot
 
 Click on the below Thumbnail to Expand the Screenshot size: <br><br>
