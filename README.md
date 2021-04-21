@@ -9,7 +9,9 @@
 </h1>
 
 
-<p align="center">A simple open-source OTP and Call flooding script with unlimited sending capability, written for Linux-based terminals using Python3.</p>
+<p align="center">A simple open-source OTP and Call flooding
+<br>script with unlimited sending capability,
+<br>written for Linux-based terminals using Python3.</p>
 
 ## 🔸 Notes:
 ⚙ [Script Usage Guide](https://github.com/utsanjan/Tsunami-Bomber#-usage-guide)
