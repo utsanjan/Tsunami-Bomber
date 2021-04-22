@@ -4,7 +4,7 @@
   <img src="https://1.bp.blogspot.com/-YJ0yHTgNa6c/YD4gkSYeWCI/AAAAAAAAbVo/Px7ODVFOEtkMGQ9F1m-X8xkceDya22BFwCLcBGAsYHQ/w200-h200/Tsunami.png"
   alt="Tsunami">
   </a><br>
-  Tsunami v1.2.1 Beta
+  Tsunami v1.3 Beta
   <br>
 </h1>
 
