@@ -76,7 +76,7 @@ watch my YouTube Video Tutorial:<br><br>
 ## 🔸 Screenshot
 
 Click on the below Thumbnail to Expand the Screenshot size: <br><br>
-<a href="https://1.bp.blogspot.com/-Uyd4gfFDm_4/YEDJABmxjRI/AAAAAAAAbdg/3Uwn46de_xAClieZSkD-dvKWEe4CXt3cwCLcBGAsYHQ/s0/Tsunami.png"><img alt="Screenshots" title="Screenshots" src="https://1.bp.blogspot.com/-v6tlDOxS2Yo/YEHJALUlDdI/AAAAAAAAbf0/JsZ620Geh4kpi2yA65YE_R2XyJzsicRbACLcBGAsYHQ/s400/Tsunami.png"/></a><br><br>
+<a href="https://1.bp.blogspot.com/-I04VRdhKRn8/YIEEjNxyhzI/AAAAAAAAfZw/zjdPHw4VFPM6fkHu8y3J9V5x4D7mzNpwgCLcBGAsYHQ/s16000/Tsunami.jpeg"><img alt="Screenshots" title="Screenshots" src="https://1.bp.blogspot.com/-7H3v6jgpe1M/YIEEOXSlIwI/AAAAAAAAfZo/dQyzpmJMDoseTH-UzmUtRo8Yb6kEbdyBACLcBGAsYHQ/w400-h311/download.png"/></a><br><br>
 Yeah, it does show Syntax Error but that doesn't actually matter...<br>
 Everytime it shows the error it sends a bombing request to the API.
 
