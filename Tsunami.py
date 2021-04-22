@@ -1,9 +1,8 @@
+import os
+import sys
+import time
 import random
 import urllib.request
-import os
-import time
-import sys
-
 
 def banner():
     os.system('''
@@ -548,12 +547,10 @@ target = t
 max = 10**500
 msgs = m
 if target == '':
-    banner()
     print(
         "Please enter a valid Phone Number of the Victim..."
     )
 elif msgs <= 0:
-    banner()
     print(
         "Invalid SMS count..."
     )
@@ -562,12 +559,9 @@ elif msgs > max:
     print(color)
     print("This isn't fair, you are trying to ruin your Victim")
 elif len(target) == 10 and msgs <= max:
-    print(color)
-    banner()
     infinite(target, color, msgs)
-    banner()
     print(color)
-    print("\t\t\t  Bombed " + str(msgs) + " Msgs Successfully...")
+    print("\t\t\tBombed " + str(msgs) + " Msgs Successfully...")
 else:
     print(
         "Please Enter a valid Phone Number and SMS count\nContact DopeSatan for queries (instagram: @utsanjan)"
