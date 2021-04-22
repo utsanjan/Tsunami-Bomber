@@ -11,7 +11,7 @@
 
 <p align="center">A simple open-source OTP and Call
 <br>flooder with unlimited sending,
-<br>written for Linux-based<br>terminal with Python3</p>
+<br>written for Linux-based<br>terminal with Python</p>
 
 ## 🔸 Notes:
 ⚙ [Script Usage Guide](https://github.com/utsanjan/Tsunami-Bomber#-usage-guide)
