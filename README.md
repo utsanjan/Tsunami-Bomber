@@ -58,12 +58,16 @@ apt install python3 curl git -y
 git clone https://github.com/utsanjan/Tsunami-Bomber
 cd Tsunami-Bomber
 pip3 install -r requirements.txt
-python3 Tsunami.py -m Number_of_messages -t victim's_ten_digit_mobile_no
+python3 Tsunami.py
 ```
+Next the script will ask you to enter the Victim's Phone No.<br>
+and the number of SMS you want to send respectively.
 <br>For Example:<br>
 
 ```
-python3 Tsunami.py -m 1000 -t 9876543210
+python3 Tsunami.py
+Enter the Victim's Phone No.: +91 "ENTER_10_DIGIT_NUMBER_HERE"
+Now enter the SMS count: "ENTER_THE_NUMBER_OF_SMS_TO_SEND"
 ```
 For more detailed usage guide<br>
 watch my YouTube Video Tutorial:<br><br>
