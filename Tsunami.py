@@ -19,11 +19,11 @@ def banner():
     printf "\e[1;32m         ║  \e[0m\e[1;95m Only Indian mobile numbers are currently supported\e[1;32m   ║\n"
     printf "\e[1;32m         ╚════════════════════════════════════════════════════════╝\n"
     printf "\n"
-    printf "         \e[101m\e[1;77m                                                          \e[0m\n"
-    printf "         \e[101m\e[1;77m      DISCLAIMER:~ Developer will not be responsible      \e[0m\n"
-    printf "         \e[101m\e[1;77m      for any misuse or damage caused by this script      \e[0m\n"
-    printf "         \e[101m\e[1;77m     Please do not use this script for taking Revenge     \e[0m\n"
-    printf "         \e[101m\e[1;77m                                                          \e[0m\n"
+    printf "         \e[101m\e[1;77mㅤ                                                      ㅤ\e[0m\n"
+    printf "         \e[101m\e[1;77mㅤ    DISCLAIMER:~ Developer will not be responsible    ㅤ\e[0m\n"
+    printf "         \e[101m\e[1;77mㅤ    for any misuse or damage caused by this script    ㅤ\e[0m\n"
+    printf "         \e[101m\e[1;77mㅤ   Please do not use this script for taking Revenge   ㅤ\e[0m\n"
+    printf "         \e[101m\e[1;77mㅤ                                                      ㅤ\e[0m\n"
     printf "\n"
         ''')
 
