@@ -10,7 +10,7 @@
 
 
 <p align="center">A simple open-source OTP and Call
-<br>flooder with unlimited sending capability,
+<br>flooder with unlimited sending,
 <br>written for Linux-based terminals using Python3.</p>
 
 ## 🔸 Notes:
