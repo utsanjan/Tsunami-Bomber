@@ -9,7 +9,7 @@
 </h1>
 
 
-<p align="center">A simple open-source OTP & Call
+<p align="center">A simple open-source SMS & Call
 <br>flooder with unlimited sending,
 <br>written for Linux-based<br>terminal with Python</p>
 
