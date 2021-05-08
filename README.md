@@ -15,10 +15,10 @@
 
 ## 🔸 Notes:
 
-⚙ [Click here for Script Usage Guide](https://github.com/utsanjan/Tsunami-Bomber#-usage-guide) <br>
-**The Python Script version of this app<br>
+⚙ [Click here for Script Usage Guide](https://github.com/utsanjan/Tsunami-Bomber#-usage-guide) <br><br>
+**The Android App version of this script<br>
 is also available. You can find it from<br>
-the following Repository: [Click Here](https://github.com/utsanjan/Tsunami-Bomber/)** <br>
+the following Repository: [Click Here](https://github.com/utsanjan/Tsunami-Bomber-Android/)** <br>
 
 > ## DISCLAIMER:
 > **Developer will not be liable and will not become
