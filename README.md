@@ -13,7 +13,7 @@
 <br>flooder with unlimited sending,
 <br>written for Linux-based<br>terminal with Python</p>
 
-## 🔸 Notes:
+## 📝 Notes
 
 ⚙ **[Click here for Script Usage Guide](https://github.com/utsanjan/Tsunami-Bomber#-usage-guide)** <br><br>
 **The Android App version of this script<br>
@@ -35,7 +35,7 @@ Currently only Indian Mobile nos. are supported.**
 - This application must not be used to cause harm/discomfort/trouble to others
 - By using this, you agree that you cannot hold the developer responsible for any misuse
 
-## 🔸 Compatibility
+## 📱 Compatibility
 Check your Python version by typing in
 ```shell script
 $ python --version
@@ -46,7 +46,7 @@ Python 3.8.3
 ```
 or any version greater than or equal to 3.4, this script has been tested and confirmed to be supported. For obsolete versions of Python (eg 2.7), use discretion while executing the script as it has not been tested there.
 
-## 🔸 Features
+## 💣 Features
 
 - Over 20 integrated messaging and calling APIs included within api.py
 - Unlimited (with abuse protection) and super-fast bombing with multithreading
@@ -55,7 +55,7 @@ or any version greater than or equal to 3.4, this script has been tested and con
 - Actively supports Indian mobile numbers and will get updates and bug-fixes
 - Made for free and open-source usage, in case of any query feel free to contact
 
-## 🔸 Usage Guide
+## 🛠️ Usage Guide
 
 ```
 apt install python3 curl git -y
@@ -77,14 +77,14 @@ For more detailed usage guide<br>
 watch my YouTube Video Tutorial:<br><br>
 <a href="https://www.youtube.com/watch?v=YCV0tsNLoFY"><img alt="Screenshots" title="Screenshots" src="https://1.bp.blogspot.com/-fUsNpr6iiMA/YH-5Z2WZW6I/AAAAAAAAfWQ/fwcyrPr1Hycob5AJyUE1i4PbKxZDTkHdgCLcBGAsYHQ/w320-h181/Tsunami.png"/></a>
 
-## 🔸 Screenshot
+## 📸 Screenshot
 
 Click on the below Thumbnail to Expand the Screenshot size: <br><br>
 <a href="https://1.bp.blogspot.com/-I04VRdhKRn8/YIEEjNxyhzI/AAAAAAAAfZw/zjdPHw4VFPM6fkHu8y3J9V5x4D7mzNpwgCLcBGAsYHQ/s16000/Tsunami.jpeg"><img alt="Screenshots" title="Screenshots" src="https://1.bp.blogspot.com/-7H3v6jgpe1M/YIEEOXSlIwI/AAAAAAAAfZo/dQyzpmJMDoseTH-UzmUtRo8Yb6kEbdyBACLcBGAsYHQ/w400-h311/download.png"/></a><br><br>
 Yeah, it does show Syntax Error but that doesn't actually matter.<br>
 Everytime it shows the error it sends a SMS Bombing request.
 
-## 🔸 Contact me  
+## 📞 Contact me  
 
 For Queries: [My Instagram Profile](https://www.instagram.com/utsanjan/)  
 [Check Out My YouTube Channel](https://www.youtube.com/DopeSatan)
