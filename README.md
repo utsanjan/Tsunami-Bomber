@@ -27,7 +27,7 @@ responsible for any misuse or damage caused by Tsunami.**
 
 ⚙ [Script Usage Guide](https://github.com/utsanjan/Tsunami-Bomber#-usage-guide) <br>
 **This script is on it's Beta stage right now.<br>
-Currently only Indian Mobile numbers are supported.**
+Currently only Indian Mobile nos. are supported.**
 
 - The application requires active internet connection to contact the APIs
 - You would not be charged for any SMS/calls dispatched as a consequence of this script
