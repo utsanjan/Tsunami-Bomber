@@ -18,12 +18,7 @@
 ⚙ **[Click here for Script Usage Guide](https://github.com/utsanjan/Tsunami-Bomber#-usage-guide)** <br><br>
 **The Android App version of this script<br>
 is also available. You can find it from<br>
-the following Repository: [Click Here](https://github.com/utsanjan/Tsunami-Bomber-Android/)** <br>
-
-> ## DISCLAIMER:
-> **Developer will not be liable and will not become
-responsible for any misuse or damage caused by Tsunami.**  
-**Please do not use this script for taking Revenge on someone. The script is written only for fair usage.**
+the following Repository: [Click Here](https://github.com/utsanjan/Tsunami-Bomber-Android/)** <br><br>
 
 **This script is on it's Beta stage right now.<br>
 Currently only Indian Mobile nos. are supported.**
@@ -34,6 +29,11 @@ Currently only Indian Mobile nos. are supported.**
 - Always ensure that you are using the latest version of Tsunami and have Python3
 - This application must not be used to cause harm/discomfort/trouble to others
 - By using this, you agree that you cannot hold the developer responsible for any misuse
+
+> ## DISCLAIMER:
+> **Developer will not be liable and will not become
+responsible for any misuse or damage caused by Tsunami.**  
+**Please do not use this script for taking Revenge on someone. The script is written only for fair usage.**
 
 ## 🔸 Compatibility
 Check your Python version by typing in
