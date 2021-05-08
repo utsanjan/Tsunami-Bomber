@@ -27,7 +27,6 @@ def banner():
     printf "\n"
         ''')
 
-
 def infinite(target, color, msgs):
     times = 0
     while True:
@@ -557,12 +556,12 @@ elif msgs <= 0:
 elif msgs > max:
     banner()
     print(color)
-    print("This isn't fair, you are trying to ruin your Victim")
+    print("This isn't fair, you are trying to take revenge!!!")
 elif len(target) == 10 and msgs <= max:
     infinite(target, color, msgs)
     print(color)
     print("\t\t\tBombed " + str(msgs) + " Msgs Successfully...")
 else:
     print(
-        "Please Enter a valid Phone Number and SMS count\nContact DopeSatan for queries (instagram: @utsanjan)"
+        "Please Enter a valid Phone No. & SMS count\nContact DopeSatan for queries (instagram: @utsanjan)"
     )
