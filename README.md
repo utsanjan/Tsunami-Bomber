@@ -25,7 +25,7 @@ responsible for any misuse or damage caused by Tsunami.**
 **Please do not use this script for taking Revenge on someone. The script is written only for fair usage.**
 
 
-⚙ [Script Usage Guide](https://github.com/utsanjan/Tsunami-Bomber#-usage-guide) <br>
+⚙ [Click here for Script Usage Guide](https://github.com/utsanjan/Tsunami-Bomber#-usage-guide) <br>
 **This script is on it's Beta stage right now.<br>
 Currently only Indian Mobile nos. are supported.**
 
