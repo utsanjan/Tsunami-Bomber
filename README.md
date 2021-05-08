@@ -15,7 +15,7 @@
 
 ## 📝 Notes
 
-⚙ **[Click here for Script Usage Guide](https://github.com/utsanjan/Tsunami-Bomber#-usage-guide)** <br><br>
+⚙ **[Click here for Script Usage Guide](#%EF%B8%8F-usage-guide)** <br><br>
 **The Android App version of this script<br>
 is also available. You can find it from<br>
 the following Repository: [Click Here](https://github.com/utsanjan/Tsunami-Bomber-Android/)** <br>
