@@ -56,6 +56,9 @@ or any version greater than or equal to 3.4, this script has been tested and con
 - Made for free and open-source usage, in case of any query feel free to contact
 
 ## 🛠️ Usage Guide
+First of all clone the repository and change the directory<br>
+to the cloned repo. Intall the requirements or dependencies.<br>
+Finally run the python file preferably with python3.<br>
 
 ```
 apt install python3 curl git -y
