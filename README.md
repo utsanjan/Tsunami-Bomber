@@ -13,7 +13,7 @@
 <br>flooder with unlimited sending,
 <br>written for Linux-based<br>terminal with Python</p>
 
-## 🔸 Notes:
+## 🔸 Notes: 
 
 ⚙ **[Click here for Script Usage Guide](https://github.com/utsanjan/Tsunami-Bomber#-usage-guide)** <br><br>
 **The Android App version of this script<br>
