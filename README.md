@@ -92,7 +92,7 @@ Everytime it shows the error it sends a SMS Bombing request.
 **Work: MrSp4arkX designed the iSpammer tool<br>
 which helped me a lot to design this Bombing tool<br>
 and even the android version of this script which<br>
-depends mostly on this. Thanks a lot MrSparkX...** <br>
+depends mostly on this. Thanks a lot MrSparkX.** <br>
 [Click here to visit iSpammer Repository](https://github.com/MrSp4rX/iSpammer)
 
 ## 📞 Contacts 
