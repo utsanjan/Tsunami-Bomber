@@ -97,6 +97,6 @@ depends mostly on this. Thanks a lot MrSparkX...** <br>
 
 ## 📞 Contacts 
 
-For Queries: [My Instagram Profile](https://www.instagram.com/utsanjan/)  
-[Check Out My YouTube Channel](https://www.youtube.com/DopeSatan)
+For Queries: [My Instagram Profile](https://www.instagram.com/utsanjan/)  <br>
+[Check Out My YouTube Channel](https://www.youtube.com/DopeSatan) <br>
 [MrSparkX's YouTube Channel](https://www.youtube.com/c/D4rkH4cker5)
