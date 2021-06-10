@@ -39,14 +39,13 @@ Currently only Indian Mobile nos. are supported.**
 - Over 20 integrated messaging and calling APIs included within api.py
 - Unlimited (with abuse protection) and super-fast bombing with multithreading
 - Possibility of international API support in future updates of this script
-- Flexible with addition of newer APIs with the help of api.py file
 - Actively supports Indian mobile numbers and will get updates and bug-fixes
 - Made for free and open-source usage, in case of any query feel free to contact
 
 ## 🛠️ Usage Guide
 First of all clone the repository and change the directory<br>
-to the cloned repo. Intall the requirements or dependencies.<br>
-Finally run the python file preferably with python3.<br>
+to the cloned repo. Provide proper execution permissions.<br>
+Finally run the Tsunami.sh file in your Linux Terminal.<br>
 
 ```
 apt install python3 curl git -y
@@ -64,8 +63,8 @@ and the number of SMS you want to send respectively.
 Enter the Victim's Phone No.: +91 "ENTER_10_DIGIT_NUMBER_HERE"
 Now enter the SMS count: "ENTER_THE_NUMBER_OF_SMS_TO_SEND"
 ```
-For more detailed usage guide<br>
-watch my YouTube Video Tutorial:<br><br>
+For an overview of how the script<br>
+works watch my YouTube Video:<br><br>
 <a href="https://www.youtube.com/watch?v=YCV0tsNLoFY"><img alt="Screenshots" title="Screenshots" src="https://1.bp.blogspot.com/-fUsNpr6iiMA/YH-5Z2WZW6I/AAAAAAAAfWQ/fwcyrPr1Hycob5AJyUE1i4PbKxZDTkHdgCLcBGAsYHQ/w320-h181/Tsunami.png"/></a>
 
 ## 📸 Screenshot
@@ -79,8 +78,8 @@ Everytime it shows the error it sends a SMS Bombing request.
 ### [MrSp4rX](https://github.com/MrSp4rX)<br>
 **Work: MrSp4arkX designed the iSpammer tool<br>
 which helped me a lot to design this Bombing tool<br>
-and even the android version of this script which<br>
-depends mostly on this. Thanks a lot MrSparkX.** <br>
+and even the android version of this which depends<br>
+mostly on his APIs. Thanks a lot MrSparkX for the APIs.** <br>
 [Click here to visit iSpammer Repository](https://github.com/MrSp4rX/iSpammer)
 
 ## 📞 Contacts 
