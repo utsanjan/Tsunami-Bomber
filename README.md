@@ -87,16 +87,7 @@ Click on the below Thumbnail to Expand the Screenshot size: <br><br>
 Yeah, it does show Syntax Error but that doesn't actually matter.<br>
 Everytime it shows the error it sends a SMS Bombing request.
 
-## ✒️ Credits 
-### [MrSp4rX](https://github.com/MrSp4rX)<br>
-**Work: MrSp4arkX designed the iSpammer tool<br>
-which helped me a lot to design this Bombing tool<br>
-and even the android version of this script which<br>
-depends mostly on this. Thanks a lot MrSparkX.** <br>
-[Click here to visit iSpammer Repository](https://github.com/MrSp4rX/iSpammer)
-
 ## 📞 Contacts 
 
 For Queries: [My Instagram Profile](https://www.instagram.com/utsanjan/)  <br>
-[Check Out My YouTube Channel](https://www.youtube.com/DopeSatan) <br>
-[MrSparkX's YouTube Channel](https://www.youtube.com/c/D4rkH4cker5)
+[Check Out My YouTube Channel](https://www.youtube.com/DopeSatan)
