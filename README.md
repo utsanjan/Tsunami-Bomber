@@ -10,7 +10,7 @@
 
 <p align="center">A simple open-source SMS & Call
 <br>flooder with unlimited sending,
-<br>written for Linux-based<br>terminal with Python</p>
+<br>written for Linux Terminals<br>by using Bash Script</p>
 
 ## 📝 Notes
 
@@ -36,8 +36,8 @@ Currently only Indian Mobile nos. are supported.**
 
 ## 💣 Features
 
-- Over 20 integrated messaging and calling APIs included within api.py
-- Unlimited (with abuse protection) and super-fast bombing with multithreading
+- Over 20 integrated messaging and calling APIs included within the Script
+- Unlimited and super-fast bombing with support for abuse protection in it
 - Possibility of international API support in future updates of this script
 - Actively supports Indian mobile numbers and will get updates and bug-fixes
 - Made for free and open-source usage, in case of any query feel free to contact
