@@ -76,14 +76,14 @@ Everytime it shows the error it sends a SMS Bombing request.
 
 ## ✒️ Credits 
 ### [MrSp4rX](https://github.com/MrSp4rX)<br>
-**Work: MrSp4arkX designed the iSpammer tool<br>
+**Work: MrSp4rX designed the iSpammer tool<br>
 which helped me a lot to design this Bombing tool<br>
 and even the android version of this which depends<br>
-mostly on his APIs. Thanks a lot MrSparkX for the APIs.** <br>
+mostly on his APIs. Thanks a lot MrSp4rX for the APIs.** <br>
 [Click here to visit iSpammer Repository](https://github.com/MrSp4rX/iSpammer)
 
 ## 📞 Contacts 
 
 For Queries: [My Instagram Profile](https://www.instagram.com/utsanjan/)  <br>
 [Check Out My YouTube Channel](https://www.youtube.com/DopeSatan) <br>
-[MrSparkX's YouTube Channel](https://www.youtube.com/c/D4rkH4cker5)
+[MrSp4rX's YouTube Channel](https://www.youtube.com/c/D4rkH4cker5)
