@@ -11,7 +11,7 @@
 
 <p align="center">A simple open-source SMS & Call
 <br>flooder with unlimited sending,
-<br>written for Linux-based<br>terminal with Bash Scripting</p>
+<br>written for Linux-based<br>terminal with Python</p>
 
 ## 📝 Notes
 
@@ -31,9 +31,20 @@ Currently only Indian Mobile nos. are supported.**
 - The application requires active internet connection to contact the APIs
 - You would not be charged for any SMS/calls dispatched as a consequence of this script
 - For best performance, use single thread in your Linux terminal
-- Always ensure that you are using the latest version of Tsunami Bomber
-- This shell script must not be used to cause harm/discomfort/trouble to others
+- Always ensure that you are using the latest version of Tsunami and have Python3
+- This application must not be used to cause harm/discomfort/trouble to others
 - By using this, you agree that you cannot hold the developer responsible for any misuse
+
+## 📱 Compatibility
+Check your Python version by typing in
+```shell script
+$ python --version
+```
+If you get the following
+```shell script
+Python 3.8.3
+```
+or any version greater than or equal to 3.4, this script has been tested and confirmed to be supported. For obsolete versions of Python (eg 2.7), use discretion while executing the script as it has not been tested there.
 
 ## 💣 Features
 
@@ -46,21 +57,22 @@ Currently only Indian Mobile nos. are supported.**
 
 ## 🛠️ Usage Guide
 First of all clone the repository and change the directory<br>
-to the cloned repo. Finally run the Tsunami.sh bash file.<br>
+to the cloned repo. Intall the requirements or dependencies.<br>
+Finally run the python file preferably with python3.<br>
 
 ```
 apt install python3 curl git -y
 git clone https://github.com/utsanjan/Tsunami-Bomber
 cd Tsunami-Bomber
-chmod +x Tsunami.sh
-./Tsunami.sh
+pip3 install -r requirements.txt
+python3 Tsunami.py
 ```
 Next the script will ask you to enter the Victim's Phone No.<br>
 and the number of SMS you want to send respectively.
 <br>For Example:<br>
 
 ```
-./Tsunami.sh
+python3 Tsunami.py
 Enter the Victim's Phone No.: +91 "ENTER_10_DIGIT_NUMBER_HERE"
 Now enter the SMS count: "ENTER_THE_NUMBER_OF_SMS_TO_SEND"
 ```
@@ -75,7 +87,16 @@ Click on the below Thumbnail to Expand the Screenshot size: <br><br>
 Yeah, it does show Syntax Error but that doesn't actually matter.<br>
 Everytime it shows the error it sends a SMS Bombing request.
 
+## ✒️ Credits 
+### [MrSp4rX](https://github.com/MrSp4rX)<br>
+**Work: MrSp4arkX designed the iSpammer tool<br>
+which helped me a lot to design this Bombing tool<br>
+and even the android version of this script which<br>
+depends mostly on this. Thanks a lot MrSparkX.** <br>
+[Click here to visit iSpammer Repository](https://github.com/MrSp4rX/iSpammer)
+
 ## 📞 Contacts 
 
 For Queries: [My Instagram Profile](https://www.instagram.com/utsanjan/)  <br>
-[Check Out My YouTube Channel](https://www.youtube.com/DopeSatan)
+[Check Out My YouTube Channel](https://www.youtube.com/DopeSatan) <br>
+[MrSparkX's YouTube Channel](https://www.youtube.com/c/D4rkH4cker5)
