@@ -11,7 +11,7 @@
 
 <p align="center">A simple open-source SMS & Call
 <br>flooder with unlimited sending,
-<br>written for Linux-based<br>terminal with Python</p>
+<br>written for Linux-based<br>terminal with Bash Scripting</p>
 
 ## 📝 Notes
 
@@ -31,20 +31,9 @@ Currently only Indian Mobile nos. are supported.**
 - The application requires active internet connection to contact the APIs
 - You would not be charged for any SMS/calls dispatched as a consequence of this script
 - For best performance, use single thread in your Linux terminal
-- Always ensure that you are using the latest version of Tsunami and have Python3
-- This application must not be used to cause harm/discomfort/trouble to others
+- Always ensure that you are using the latest version of Tsunami Bomber
+- This shell script must not be used to cause harm/discomfort/trouble to others
 - By using this, you agree that you cannot hold the developer responsible for any misuse
-
-## 📱 Compatibility
-Check your Python version by typing in
-```shell script
-$ python --version
-```
-If you get the following
-```shell script
-Python 3.8.3
-```
-or any version greater than or equal to 3.4, this script has been tested and confirmed to be supported. For obsolete versions of Python (eg 2.7), use discretion while executing the script as it has not been tested there.
 
 ## 💣 Features
 
@@ -57,8 +46,7 @@ or any version greater than or equal to 3.4, this script has been tested and con
 
 ## 🛠️ Usage Guide
 First of all clone the repository and change the directory<br>
-to the cloned repo. Intall the requirements or dependencies.<br>
-Finally run the python file preferably with python3.<br>
+to the cloned repo. Finally run the Tsunami.sh bash file.<br>
 
 ```
 apt install python3 curl git -y
