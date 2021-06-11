@@ -70,7 +70,7 @@ works watch my YouTube Video:<br><br>
 ## 📸 Screenshot
 
 Click on the below Thumbnail to Expand the Screenshot size: <br><br>
-<a href="https://1.bp.blogspot.com/-I04VRdhKRn8/YIEEjNxyhzI/AAAAAAAAfZw/zjdPHw4VFPM6fkHu8y3J9V5x4D7mzNpwgCLcBGAsYHQ/s16000/Tsunami.jpeg"><img alt="Screenshots" title="Screenshots" src="https://1.bp.blogspot.com/-7H3v6jgpe1M/YIEEOXSlIwI/AAAAAAAAfZo/dQyzpmJMDoseTH-UzmUtRo8Yb6kEbdyBACLcBGAsYHQ/w400-h311/download.png"/></a><br><br>
+<a href="https://lh3.googleusercontent.com/-8DV2Hi6oTZU/YMKsFrMg9SI/AAAAAAAAh-E/UH51RHgps4Ad4Zn1HtZbjFf-VEEsO2gIQCLcBGAsYHQ/s16000/Tsunami.jpg"><img alt="Screenshots" title="Screenshots" src="https://lh3.googleusercontent.com/-yIspP0o2vn4/YMKrRIvEU1I/AAAAAAAAh94/QZaLCeg717MMDkx7tkiVf0OVKiWTU-msgCLcBGAsYHQ/w400-h338/download.png"/></a><br><br>
 Yeah, it does show Syntax Error but that doesn't actually matter.<br>
 Everytime it shows the error it sends a SMS Bombing request.
 
