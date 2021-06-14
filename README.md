@@ -43,6 +43,10 @@ Currently only Indian Mobile nos. are supported.**
 - Made for free and open-source usage, in case of any query feel free to contact
 
 ## 🛠️ Usage Guide
+
+### 🔴 Prerequisites: <br>
+**Python3 and wget must be installed on your<br>
+system before performing the following steps.**<br><br>
 First of all clone the repository and change the directory<br>
 to the cloned repo. Provide proper execution permissions.<br>
 Finally run the Tsunami.sh file in your Linux Terminal.<br>
