@@ -12,7 +12,7 @@
 <br>flooder with unlimited sending,
 <br>written for Linux Terminals<br>by using Bash Script</p>
 
-## 📝 Notes 
+## 📝 Notes
 
 ⚙ **[Click here for Script Usage Guide](#%EF%B8%8F-usage-guide)** <br><br>
 **The Android App version of this script<br>
