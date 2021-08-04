@@ -8,7 +8,7 @@
   <br>
 </h1>  
 
-<p align="center">A simple open-source SMS & Call
+<p align="center">An easy to use SMS & Call
 <br>flooder with unlimited sending,
 <br>written for Linux Terminals<br>by using Bash Script</p>
 
