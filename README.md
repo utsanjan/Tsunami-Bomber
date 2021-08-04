@@ -39,8 +39,8 @@ Currently only Indian Mobile nos. are supported.**
 - Over 20 integrated messaging and calling APIs included within the Script
 - Unlimited and super-fast bombing with support for abuse protection in it
 - Possibility of international API support in future updates of this script
-- Actively supports Indian mobile numbers and will get updates and bug-fixes
-- Made for free and open-source usage, in case of any query feel free to contact
+- Actively supports Indian mobile numbers and will get updates & bug-fixes
+- Made for free usage, in case of any query feel free to contact with me
 
 ## 🛠️ Usage Guide
 
