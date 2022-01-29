@@ -14,8 +14,8 @@
 
 ## 📝 Notes
 [![Buy Me A Coffee](https://img.shields.io/open-vsx/stars/redhat/java?color=D8B024&label=buy%20me%20a%20coffee&style=plastic)](https://www.buymeacoffee.com/utsanjan)‎ ‎
-[![](https://img.shields.io/github/license/utsanjan/Tsunami-Bomber?logoColor=red&style=plastic)](https://github.com/utsanjan/Tsunami-Bomber/blob/main/LICENSE)‎ ‎
 [![](https://img.shields.io/github/languages/count/utsanjan/Tsunami-Bomber?style=plastic)](https://github.com/utsanjan/Tsunami-Bomber/search?l=shell)‎ ‎
+[![](https://img.shields.io/github/license/utsanjan/Tsunami-Bomber?logoColor=red&style=plastic)](https://github.com/utsanjan/Tsunami-Bomber/blob/main/LICENSE)‎ ‎
 [![](https://img.shields.io/github/languages/top/utsanjan/Tsunami-Bomber?color=light%20green&style=plastic)](https://github.com/utsanjan/Tsunami-Bomber)‎ ‎ <br><br>
 ⚙ **[Click here for Script Usage Guide](#%EF%B8%8F-usage-guide)** <br>
 **The Android App version of this script<br>
