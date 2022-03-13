@@ -23,22 +23,22 @@ is also available. You can find it from<br>
 the following Repository: [Click Here](https://github.com/utsanjan/Tsunami-Bomber-Android/)** <br>
 
 > ## DISCLAIMER:
-> **Developer will not be liable and will not become
-responsible for any misuse or damage caused by Tsunami.**  
-**Please do not use this script for taking Revenge on someone. The script is written only for fair usage.**
+> **Developer will not be liable and will not become<br>
+responsible for any misuse or damage caused by<br>
+Tsunami. Please do not use this script for taking<br>
+revenge on somebody, it's made only for fair usage**
 
 **This script is on it's Beta stage right now.<br>
 Currently only Indian Mobile nos. are supported.**
 
-- The application requires active internet connection to contact the APIs
-- You would not be charged for any SMS/calls dispatched as a consequence of this script
 - For best performance, use single thread in your Linux terminal
 - Always ensure that you are using the latest version of Tsunami Bomber
+- The application requires active internet connection to contact the APIs
 - This application must not be used to cause harm/discomfort/trouble to others
+- You wouldn't be charged for any SMS/calls dispatched as consequence of this script
 - By using this, you agree that you cannot hold the developer responsible for any misuse
 
 ## 💣 Features
-
 - Over 20 integrated messaging and calling APIs included within the Script
 - Unlimited and super-fast bombing with support for abuse protection in it
 - Possibility of international API support in future updates of this script
@@ -75,11 +75,10 @@ works watch my YouTube Video:<br><br>
 <a href="https://www.youtube.com/watch?v=YCV0tsNLoFY"><img alt="Screenshots" title="Screenshots" src="https://1.bp.blogspot.com/-fUsNpr6iiMA/YH-5Z2WZW6I/AAAAAAAAfWQ/fwcyrPr1Hycob5AJyUE1i4PbKxZDTkHdgCLcBGAsYHQ/w320-h181/Tsunami.png"/></a>
 
 ## 📸 Screenshot
-
-Click on the below Thumbnail to Expand the Screenshot size: <br><br>
-<a href="https://lh3.googleusercontent.com/-8DV2Hi6oTZU/YMKsFrMg9SI/AAAAAAAAh-E/UH51RHgps4Ad4Zn1HtZbjFf-VEEsO2gIQCLcBGAsYHQ/s16000/Tsunami.jpg" target="_blank"><img alt="Screenshots" title="Screenshots" src="https://lh3.googleusercontent.com/-yIspP0o2vn4/YMKrRIvEU1I/AAAAAAAAh94/QZaLCeg717MMDkx7tkiVf0OVKiWTU-msgCLcBGAsYHQ/w400-h338/download.png"/></a><br><br>
 Yeah, it does show Syntax Error but that doesn't actually matter.<br>
-Everytime it shows the error it sends a SMS Bombing request.
+Everytime it shows the error it sends a SMS Bombing request to API.<br>
+Click on the below Thumbnail to Expand the Screenshot page's size: <br><br>
+<a href="https://lh3.googleusercontent.com/-8DV2Hi6oTZU/YMKsFrMg9SI/AAAAAAAAh-E/UH51RHgps4Ad4Zn1HtZbjFf-VEEsO2gIQCLcBGAsYHQ/s16000/Tsunami.jpg" target="_blank"><img alt="Screenshots" title="Screenshots" src="https://lh3.googleusercontent.com/-yIspP0o2vn4/YMKrRIvEU1I/AAAAAAAAh94/QZaLCeg717MMDkx7tkiVf0OVKiWTU-msgCLcBGAsYHQ/w400-h338/download.png"/></a>
 
 ## ✒️ Credits 
 ### [MrSp4rX](https://github.com/MrSp4rX)<br>
@@ -89,8 +88,7 @@ and even the android version of this which depends<br>
 mostly on his APIs. Thanks a lot MrSp4rX for the APIs.** <br>
 [Click here to visit iSpammer Repository](https://github.com/MrSp4rX/iSpammer)
 
-## 📞 Contacts 
-
+## 📞 Contacts
 For Queries: [My Instagram Profile](https://www.instagram.com/utsanjan/)  <br>
 [Check Out My YouTube Channel](https://www.youtube.com/DopeSatan) <br>
 [MrSp4rX's YouTube Channel](https://www.youtube.com/c/D4rkH4cker5)
