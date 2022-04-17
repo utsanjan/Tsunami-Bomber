@@ -18,6 +18,7 @@
 [![](https://img.shields.io/github/license/utsanjan/Tsunami-Bomber?logoColor=red&style=plastic)](https://github.com/utsanjan/Tsunami-Bomber/blob/main/LICENSE)‎ ‎
 [![](https://img.shields.io/github/languages/top/utsanjan/Tsunami-Bomber?color=light%20green&style=plastic)](https://github.com/utsanjan/Tsunami-Bomber)‎ ‎ <br><br>
 ⚙ **[Click here for Script Usage Guide](#%EF%B8%8F-usage-guide)** <br>
+
 **→ Android App version of the script<br>
 is also available. You can find it<br>
 by clicking the button below:**<br>
