@@ -17,7 +17,7 @@
 [![](https://img.shields.io/github/license/utsanjan/Tsunami-Bomber?logoColor=red&style=flat)](https://github.com/utsanjan/Tsunami-Bomber/blob/main/LICENSE)‎ ‎
 [![](https://img.shields.io/github/languages/top/utsanjan/Tsunami-Bomber?color=light%20green&style=flat)](https://github.com/utsanjan/Tsunami-Bomber)‎ ‎ <br>
 
-Tsunami Bomber is a free shell script designed for SMS and OTP flooding, enabling users to send unlimited messages to Indian mobile numbers using over 20 integrated APIs. Built for fast, abuse-protected performance, it runs via a Linux terminal and also offers an Android app version. While powerful, it's strictly intended for ethical use—misuse is strongly discouraged, and the developer holds no liability.<br>
+Tsunami Bomber is a free shell script designed for SMS and OTP flooding, enabling users to send unlimited messages to Indian mobile numbers using over 20 integrated APIs. Built for fast, abuse-protected performance, it runs via a Linux terminal and also offers an Android app version. While powerful, it's strictly intended for ethical use; misuse is strongly discouraged, and the developer holds no liability.<br>
 
 ⚙ **[Click here for Script Usage Guide](#%EF%B8%8F-usage-guide)** <br>
 
