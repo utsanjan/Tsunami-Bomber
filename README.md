@@ -71,7 +71,7 @@ For a comprehensive walkthrough of how the Tsunami Bomber script functions, incl
 <a href="https://www.youtube.com/watch?v=YCV0tsNLoFY"><img alt="Screenshots" title="Screenshots" src="https://1.bp.blogspot.com/-fUsNpr6iiMA/YH-5Z2WZW6I/AAAAAAAAfWQ/fwcyrPr1Hycob5AJyUE1i4PbKxZDTkHdgCLcBGAsYHQ/w320-h181/Tsunami.png"/></a>
 
 ## 📸 Screenshot
-Yes, the script may display a Syntax Error message during execution, but this is not a cause for concern. Each time the error appears, it indicates that an SMS bombing request has been successfully sent to the API. To view the full screenshot and gain a better understanding of this behavior, simply click on the thumbnail below to expand the page.<br><br>
+Yes, the script may display a Syntax Error message during execution, but this is not a cause for concern. Each time the error appears, it indicates that an SMS bombing request has been successfully sent to the API. To view the full screenshot and gain a better understanding of this behavior, simply click on the thumbnail below to expand it.<br><br>
 <a href="https://lh3.googleusercontent.com/-8DV2Hi6oTZU/YMKsFrMg9SI/AAAAAAAAh-E/UH51RHgps4Ad4Zn1HtZbjFf-VEEsO2gIQCLcBGAsYHQ/s16000/Tsunami.jpg" target="_blank"><img alt="Screenshots" title="Screenshots" src="https://lh3.googleusercontent.com/-yIspP0o2vn4/YMKrRIvEU1I/AAAAAAAAh94/QZaLCeg717MMDkx7tkiVf0OVKiWTU-msgCLcBGAsYHQ/w400-h338/download.png"/></a>
 
 ## ✒️ Credits 
