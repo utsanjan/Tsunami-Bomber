@@ -8,7 +8,7 @@
   <br>
 </h1>
  
-<p align="center">A free SMS or OTP flooding Shell script that lets you<br>send unlimited messages anytime, with no restrictions</p>
+<p align="center">A free SMS or OTP flooding Shell script<br>that lets you send unlimited messages<br>anytime, without any restrictions</p>
 
 ## 📝 Notes
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/utsanjan)‎ ‎
